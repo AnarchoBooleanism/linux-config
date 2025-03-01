@@ -1,10 +1,12 @@
 # TODO
-~~- Create branches for desktop, laptop~~
-~~- Other config files folder~~
-~~- GNU stow folder~~
-~~- ~/.bashrc~~
-~~- ~/.ssh/config~~
+- ~~Create branches for desktop, laptop~~
+- ~~Other config files folder~~
+- ~~GNU stow folder~~
+- ~~\~/.bashrc~~
+- ~~\~/.ssh/config~~
+- Split .ssh/config into multiple files in config.d
 - wg-quick setup
+- Various systemd services
 - Startup scripts
 - Screenshot scripts
 - XDG locations
