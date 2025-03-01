@@ -119,5 +119,8 @@ fi
 export PATH=/home/hihacks/.nimble/bin:/home/hihacks/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 export PATH=/home/hihacks/.nimble/bin:/home/hihacks/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
+# Make hyfetch work
+PATH="/home/hihacks/.local/bin:$PATH"
+
 # Hyfetch :3
 hyfetch
