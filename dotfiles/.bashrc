@@ -109,6 +109,9 @@ fi
 # Variables
 SCREENSHOT_DIR="/mnt/Extras/Google Drive/Screenshots"
 
+# Aliases
+alias update="sudo pacman -Syu && flatpak update && yay"
+
 # Make hyfetch work
 PATH="/home/hihacks/.local/bin:$PATH"
 
