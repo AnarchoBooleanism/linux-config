@@ -1,6 +1,6 @@
 [user]
 	name = Nathan Guerrero
-	email = naguerr2@uci.edu
+	email = anarchbool@anarchbool.dev
 	signingkey = /home/hihacks/.ssh/github-sign.pub
 [gpg]
 	format = ssh
