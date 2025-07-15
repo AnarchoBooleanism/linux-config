@@ -107,7 +107,7 @@ fi
 # Everything from here is custom!
 
 # Variables
-SCREENSHOT_DIR="$HOME/google-drive/Screenshots"
+SCREENSHOT_DIR="/mnt/Extras/Google Drive/Screenshots"
 
 # Make hyfetch work
 PATH="/home/hihacks/.local/bin:$PATH"
