@@ -10,4 +10,4 @@ As well, have a folder for secrets, known as "secrets", which is ignored by Git.
 ## Important commands
 
 `update` - Runs `paru` and `flatpak update`
-`update-config` - Updates the local copy of this repo
+`update-config` - Updates the local copy of this repo, and the dotfiles associated with it
