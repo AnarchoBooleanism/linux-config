@@ -108,9 +108,11 @@ fi
 
 # Variables
 SCREENSHOT_DIR="$HOME/google-drive/Screenshots"
+CONFIG_DIR="$HOME/.linux-config"
 
 # Aliases
-alias update="sudo pacman -Syu && flatpak update && yay"
+alias update="paru && flatpak update"
+alias update-config="(cd $CONFIG_DIR && git pull && cd ./dotfiles && stow .)"
 
 # Make hyfetch work
 PATH="/home/hihacks/.local/bin:$PATH"
