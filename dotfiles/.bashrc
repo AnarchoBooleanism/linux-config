@@ -106,7 +106,7 @@ fi
 
 # Everything from here is custom!
 
-source $HOME/.bash_aliases # Variables
+source $HOME/.bash_variables # Variables
 
 # Aliases
 alias update="paru && flatpak update"
