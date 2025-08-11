@@ -8,7 +8,7 @@ if ! command -v flameshot >/dev/null 2>&1; then
     exit 1
 fi
 
-source $HOME/.bash_aliases
+source $HOME/.bash_variables
 
 # NOTE: Make sure that SCREENSHOT_DIR variable is exported to this script!
 if [[ ! "$SCREENSHOT_DIR" ]]; then 
