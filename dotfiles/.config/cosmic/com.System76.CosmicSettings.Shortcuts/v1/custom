@@ -1,0 +1,35 @@
+{
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "Escape",
+        description: Some("Mission Center"),
+    ): Spawn("flatpak run io.missioncenter.MissionCenter"),
+    (
+        modifiers: [
+            Shift,
+        ],
+        key: "Print",
+    ): System(Screenshot),
+    (
+        modifiers: [],
+        key: "Print",
+        description: Some("Flameshot full screenshot"),
+    ): Spawn("/home/hihacks/.linux-config/scripts/flameshot/flameshot-full.sh"),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Print",
+        description: Some("Flameshot screen screenshot"),
+    ): Spawn("/home/hihacks/.linux-config/scripts/flameshot/flameshot-screen.sh"),
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "Print",
+        description: Some("Flameshot GUI screenshot"),
+    ): Spawn("/home/hihacks/.linux-config/scripts/flameshot/flameshot-gui.sh"),
+}
