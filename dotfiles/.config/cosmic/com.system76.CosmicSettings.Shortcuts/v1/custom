@@ -18,6 +18,7 @@
             Shift,
         ],
         key: "Print",
+        description: Some("Flamtshot GUI screenshot"),
     ): Spawn("/home/hihacks/.linux-config/scripts/flameshot/flameshot-gui.sh"),
     (
         modifiers: [
