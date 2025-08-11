@@ -106,15 +106,13 @@ fi
 
 # Everything from here is custom!
 
-# Variables
-SCREENSHOT_DIR="$HOME/google-drive/Screenshots"
-CONFIG_DIR="$HOME/.linux-config"
+source $HOME/.bash_aliases # Variables
 
 # Aliases
 alias update="paru && flatpak update"
 alias update-config="(cd $CONFIG_DIR && git pull && cd ./dotfiles && stow .)"
 
-# Make hyfetch work
+# Make hyfetch work (not needed anymore but still keeping this)
 PATH="/home/hihacks/.local/bin:$PATH"
 
 # Hyfetch! :3
