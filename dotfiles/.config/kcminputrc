@@ -1,0 +1,6 @@
+[Libinput][1739][52861][SYNA32B2:00 06CB:CE7D Touchpad]
+NaturalScroll=true
+PointerAccelerationProfile=1
+
+[Mouse]
+cursorTheme=breeze_cursors
