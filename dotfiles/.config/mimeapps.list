@@ -1,5 +1,6 @@
 [Added Associations]
 application/gzip=org.gnome.FileRoller.desktop;
+application/pdf=org.gnome.Evince.desktop;
 application/vnd.ms-cab-compressed=org.gnome.FileRoller.desktop;
 application/vnd.rar=org.gnome.FileRoller.desktop;
 application/x-7z-compressed=org.gnome.FileRoller.desktop;
@@ -36,6 +37,7 @@ x-scheme-handler/https=firefox.desktop
 
 [Default Applications]
 application/gzip=org.gnome.FileRoller.desktop;
+application/pdf=org.gnome.Evince.desktop;
 application/vnd.ms-cab-compressed=org.gnome.FileRoller.desktop;
 application/vnd.rar=org.gnome.FileRoller.desktop;
 application/x-7z-compressed=org.gnome.FileRoller.desktop;
