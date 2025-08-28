@@ -34,7 +34,16 @@ padding=4
 [Tiling][0dd1f87d-11e2-4a45-981d-337b44ee9ef1][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][2fd9b7ea-5ee6-4f48-88a4-ba5fcebc0505][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][808c813f-30c6-4d58-b4f4-6b2d353deb5c][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][8b509017-1a37-416c-81ca-aa8acd52a218][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][c7d82646-1858-40e3-a5db-19d061022b10][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
@@ -46,5 +55,8 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze
+BorderSize=None
+BorderSizeAuto=false
+ButtonsOnLeft=M
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__WillowDarkBlur
