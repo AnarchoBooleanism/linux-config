@@ -1,0 +1,9 @@
+[Common]
+CornerRadius=5
+
+[Style]
+DolphinSidebarOpacity=90
+MenuBarOpacity=90
+MenuOpacity=90
+TabBarOpacity=90
+ToolBarOpacity=90

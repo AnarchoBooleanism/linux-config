@@ -31,6 +31,12 @@ translucencyEnabled=true
 [Tiling]
 padding=4
 
+[Tiling][4686e590-5c97-416f-b643-429127091859][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][4686e590-5c97-416f-b643-429127091859][c209c4b4-64f4-492e-b2b4-794e62c891ac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][6d5e8992-39a9-4e00-b5c9-3c5d38ddd856][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -70,5 +76,8 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze
+BorderSize=None
+BorderSizeAuto=false
+ButtonsOnLeft=M
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__WillowDarkBlur
