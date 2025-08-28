@@ -112,6 +112,7 @@ Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x97\
 [General]
 ColorScheme=WillowDarkBlur
 ColorSchemeHash=6b16d640999c1268194eff77641e925232e765f8
+LastUsedCustomAccentColor=232,203,45
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -137,7 +138,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
