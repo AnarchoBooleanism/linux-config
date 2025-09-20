@@ -26,6 +26,7 @@ Mode=Location
 [Plugins]
 blurEnabled=true
 contrastEnabled=false
+kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
 
 [Tiling]
@@ -53,6 +54,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][c2668386-d24c-4abe-993f-efc262499f8e][c209c4b4-64f4-492e-b2b4-794e62c891ac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][cf4dc532-17aa-49e9-a05c-252d53f08630][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][cf4dc532-17aa-49e9-a05c-252d53f08630][c209c4b4-64f4-492e-b2b4-794e62c891ac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][ec3724dd-b104-4040-bb88-81dbadab28a6][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
