@@ -26,10 +26,17 @@ Mode=Location
 [Plugins]
 blurEnabled=true
 contrastEnabled=false
+kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
 
 [Tiling]
 padding=4
+
+[Tiling][0dd1f87d-11e2-4a45-981d-337b44ee9ef1][158a2fb5-dc89-4f6c-9dbf-6d01946fb612]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][0dd1f87d-11e2-4a45-981d-337b44ee9ef1][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][6d5e8992-39a9-4e00-b5c9-3c5d38ddd856][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
