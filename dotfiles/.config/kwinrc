@@ -14,8 +14,26 @@ EdgeBarrier=0
 BlurStrength=4
 NoiseStrength=7
 
+[Effect-blurplus]
+BlurDecorations=true
+BlurDocks=true
+BlurMenus=true
+BlurStrength=4
+BottomCornerRadius=10
+MenuCornerRadius=10
+PaintAsTranslucent=true
+RefractionNormalPow=22
+RefractionRGBFringing=20
+RefractionStrength=3
+RefractionTextureRepeatMode=1
+TopCornerRadius=10
+WindowClasses=class1\nclass2\nclass3\ncom.system76.CosmicTerm\nsystemsettings\norg.kde.dolphin\n
+
 [Effect-overview]
 BorderActivate=9
+
+[Effect-translucency]
+MoveResize=100
 
 [NightColor]
 Active=true
@@ -24,8 +42,9 @@ LongitudeFixed=-116.4104231214708
 Mode=Location
 
 [Plugins]
-blurEnabled=true
+blurEnabled=false
 contrastEnabled=false
+forceblurEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
 
@@ -77,8 +96,6 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
-BorderSize=None
-BorderSizeAuto=false
 ButtonsOnLeft=M
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__WillowDarkBlur
+theme=__aurorae__svg__Layan
