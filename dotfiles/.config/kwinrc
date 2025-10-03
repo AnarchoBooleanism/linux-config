@@ -14,8 +14,26 @@ EdgeBarrier=0
 BlurStrength=4
 NoiseStrength=7
 
+[Effect-blurplus]
+BlurDecorations=true
+BlurDocks=true
+BlurMenus=true
+BlurStrength=4
+BottomCornerRadius=10
+MenuCornerRadius=10
+PaintAsTranslucent=true
+RefractionNormalPow=22
+RefractionRGBFringing=20
+RefractionStrength=3
+RefractionTextureRepeatMode=1
+TopCornerRadius=10
+WindowClasses=class1\nclass2\nclass3\ncom.system76.CosmicTerm\nsystemsettings\norg.kde.dolphin
+
 [Effect-overview]
 BorderActivate=9
+
+[Effect-translucency]
+MoveResize=100
 
 [NightColor]
 Active=true
@@ -24,13 +42,20 @@ LongitudeFixed=-116.4104231214708
 Mode=Location
 
 [Plugins]
-blurEnabled=true
+blurEnabled=false
 contrastEnabled=false
+forceblurEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
 
 [Tiling]
 padding=4
+
+[Tiling][2f6ed5d6-8089-48b2-bdb6-824bdb564acd][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][2f6ed5d6-8089-48b2-bdb6-824bdb564acd][c209c4b4-64f4-492e-b2b4-794e62c891ac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][4686e590-5c97-416f-b643-429127091859][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -83,8 +108,6 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
-BorderSize=None
-BorderSizeAuto=false
 ButtonsOnLeft=M
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__WillowDarkBlur
+theme=__aurorae__svg__Layan
