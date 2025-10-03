@@ -29,6 +29,21 @@ RefractionTextureRepeatMode=1
 TopCornerRadius=10
 WindowClasses=class1\nclass2\nclass3\ncom.system76.CosmicTerm\nsystemsettings\norg.kde.dolphin
 
+[Effect-blurplus]
+BlurDecorations=true
+BlurDocks=true
+BlurMenus=true
+BlurStrength=4
+BottomCornerRadius=10
+MenuCornerRadius=10
+PaintAsTranslucent=true
+RefractionNormalPow=22
+RefractionRGBFringing=20
+RefractionStrength=3
+RefractionTextureRepeatMode=1
+TopCornerRadius=10
+WindowClasses=class1\nclass2\nclass3\ncom.system76.CosmicTerm\nsystemsettings\norg.kde.dolphin\n
+
 [Effect-overview]
 BorderActivate=9
 
