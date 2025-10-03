@@ -112,8 +112,5 @@ source $HOME/.bash_variables # Variables
 alias update="paru && flatpak update"
 alias update-config="(cd $CONFIG_DIR && git pull && stow -t ~ dotfiles)"
 
-# Make hyfetch work (not needed anymore but still keeping this)
-PATH="/home/hihacks/.local/bin:$PATH"
-
 # Hyfetch! :3
 hyfetch

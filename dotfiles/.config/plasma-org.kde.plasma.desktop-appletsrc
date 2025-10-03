@@ -66,7 +66,7 @@ plugin=org.kde.plasma.kickoff
 [Containments][26][Applets][27][Configuration]
 PreloadWeight=100
 popupHeight=624
-popupWidth=665
+popupWidth=671
 
 [Containments][26][Applets][27][Configuration][ConfigDialog]
 DialogHeight=540
@@ -74,6 +74,8 @@ DialogWidth=720
 
 [Containments][26][Applets][27][Configuration][General]
 favoritesPortedToKAstats=true
+primaryActions=1
+systemFavorites=lock-screen\\,logout\\,save-session\\,switch-user
 
 [Containments][26][Applets][28]
 immutability=1
@@ -84,7 +86,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][26][Applets][29][Configuration][General]
-launchers=
+launchers=file:///var/lib/flatpak/exports/share/applications/org.kde.kweather.desktop
 
 [Containments][26][Applets][30]
 immutability=1
@@ -262,7 +264,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][3][Applets][25][Configuration]
 PreloadWeight=100
-popupHeight=624
+popupHeight=623
 popupWidth=677
 
 [Containments][3][Applets][25][Configuration][ConfigDialog]
@@ -304,8 +306,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=438
+popupWidth=440
 wallpaperplugin=org.kde.image
 
 [Containments][3][Applets][8][Applets][10]
@@ -317,7 +319,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][3][Applets][8][Applets][11][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][3][Applets][8][Applets][12]
 immutability=1
@@ -338,7 +340,7 @@ immutability=1
 plugin=org.kde.plasma.cameraindicator
 
 [Containments][3][Applets][8][Applets][14][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][3][Applets][8][Applets][15]
 immutability=1
@@ -356,10 +358,9 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][3][Applets][8][Applets][19][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][3][Applets][8][Applets][19][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][3][Applets][8][Applets][20]
@@ -367,7 +368,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][3][Applets][8][Applets][20][Configuration]
-PreloadWeight=60
+PreloadWeight=85
 
 [Containments][3][Applets][8][Applets][21]
 immutability=1
@@ -395,7 +396,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][3][Applets][8][Applets][43][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][3][Applets][8][Applets][43][Configuration][ConfigDialog]
 DialogHeight=540
@@ -413,7 +414,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][3][Applets][8][Applets][47][Configuration]
-PreloadWeight=14
+PreloadWeight=3
 
 [Containments][3][Applets][8][Applets][9]
 immutability=1
@@ -549,7 +550,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][54][Applets][65][Configuration]
-PreloadWeight=25
+PreloadWeight=30
 
 [Containments][51][Applets][54][Applets][65][Configuration][General]
 migrated=true
@@ -631,7 +632,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][51][Applets][72][Configuration]
 PreloadWeight=100
-popupHeight=624
+popupHeight=623
 popupWidth=677
 
 [Containments][51][Applets][72][Configuration][ConfigDialog]
