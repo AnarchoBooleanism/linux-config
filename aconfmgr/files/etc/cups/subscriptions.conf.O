@@ -1,0 +1,12 @@
+# Subscription configuration file for CUPS v2.4.14
+# Written by cupsd
+NextSubscriptionId 15
+<Subscription 14>
+Events printer-state-changed printer-restarted printer-shutdown printer-stopped printer-added printer-deleted job-state-changed job-created job-completed job-stopped
+Owner hihacks
+Recipient dbus://
+LeaseDuration 3600
+Interval 0
+ExpirationTime 1758085997
+NextEventId 1
+</Subscription>

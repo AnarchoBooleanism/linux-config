@@ -1,0 +1,5 @@
+[Daemon]
+Theme=script
+# Administrator customizations go in this file
+#[Daemon]
+#Theme=fade-in
