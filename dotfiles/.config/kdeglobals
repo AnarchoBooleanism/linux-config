@@ -133,8 +133,7 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=Layan
-ColorSchemeHash=6b16d640999c1268194eff77641e925232e765f8
+ColorSchemeHash=625c32ae46f33771aca7694ab0deae5a44bbf41c
 LastUsedCustomAccentColor=232,203,45
 XftAntialias=true
 XftHintStyle=hintslight

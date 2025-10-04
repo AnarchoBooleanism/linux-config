@@ -60,7 +60,7 @@ plugin=org.kde.plasma.kickoff
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
 popupHeight=623
-popupWidth=665
+popupWidth=671
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -201,14 +201,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=9
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][25]
 immutability=1
