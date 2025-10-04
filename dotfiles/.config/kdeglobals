@@ -140,7 +140,7 @@ Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x97\
 [General]
 AccentColor=0,0,0,0
 ColorScheme=Layan
-ColorSchemeHash=697626961cd3018a86d5d1b6a546c7ac8b282d8c
+ColorSchemeHash=57f15b37fc308d880ecdd98214c35c74663c361a
 LastUsedCustomAccentColor=0,211,184
 XftAntialias=true
 XftHintStyle=hintslight
