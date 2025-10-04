@@ -1,0 +1,29 @@
+{
+  "backup_device_uuid" : "61f285b0-8eee-4626-871f-78fc6405261c",
+  "parent_device_uuid" : "",
+  "do_first_run" : "false",
+  "btrfs_mode" : "false",
+  "include_btrfs_home_for_backup" : "false",
+  "include_btrfs_home_for_restore" : "false",
+  "stop_cron_emails" : "true",
+  "schedule_monthly" : "true",
+  "schedule_weekly" : "true",
+  "schedule_daily" : "true",
+  "schedule_hourly" : "false",
+  "schedule_boot" : "false",
+  "count_monthly" : "2",
+  "count_weekly" : "2",
+  "count_daily" : "2",
+  "count_hourly" : "6",
+  "count_boot" : "5",
+  "snapshot_size" : "27176741368",
+  "snapshot_count" : "338506",
+  "date_format" : "%Y-%m-%d %H:%M:%S",
+  "exclude" : [
+    "/home/hihacks/**",
+    "/mnt/**",
+    "/var/lib/flatpak/**",
+    "/var/lib/libvirt/**"
+  ],
+  "exclude-apps" : []
+}

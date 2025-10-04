@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable Wake-on-LAN
+
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/ethtool -s enp5s0 wol g
+
+
+[Install]
+WantedBy=multi-user.target

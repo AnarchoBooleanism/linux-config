@@ -1,0 +1,13 @@
+# /dev/nvme0n1p6
+UUID=61f285b0-8eee-4626-871f-78fc6405261c	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p4
+UUID=CD5C-7A3B      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/nvme0n1p5
+UUID=cfa3c94c-12b2-4eed-b169-48af1f0a1f70	none      	swap      	defaults  	0 0
+
+/dev/disk/by-uuid/C8247DAC247D9E5E /mnt/Extras auto nosuid,nodev,nofail,x-gvfs-show 0 0
+/dev/disk/by-uuid/144A4FEB4A4FC7E6 /mnt/Windows auto nosuid,nodev,nofail,x-gvfs-show 0 0
+/dev/disk/by-uuid/6B533ADB145A349E /mnt/SSD-Common auto nosuid,nodev,nofail,x-gvfs-show 0 0
+/dev/disk/by-uuid/D426-7029 /mnt/MEDIA auto nosuid,nodev,nofail,x-gvfs-show 0 0
