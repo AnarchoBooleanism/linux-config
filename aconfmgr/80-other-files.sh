@@ -16,7 +16,6 @@ CopyFile /boot/loader/loader.conf 755
 CopyFile /boot/loader/random-seed 755
 CopyFile /boot/refind_linux.conf 755
 CreateFile /etc/.pwd.lock 600 > /dev/null
-CopyFile /etc/.updated
 CopyFile /etc/NetworkManager/conf.d/20-connectivity.conf
 CopyFile /etc/adjtime
 CopyFile /etc/brlapi.key 640 '' brlapi
@@ -58,8 +57,6 @@ CopyFile /etc/passwd
 CopyFile /etc/passwd-
 CopyFile /etc/plymouth/plymouthd.conf
 CopyFile /etc/plymouth/plymouthd.confe
-CopyFile /etc/resolv.conf
-CopyFile /etc/resolv.pre-tailscale-backup.conf
 CopyFile /etc/shadow
 CopyFile /etc/shadow- 600
 CopyFile /etc/shells
