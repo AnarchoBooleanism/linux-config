@@ -9,7 +9,6 @@ CopyFile /boot/EFI/BOOT/vars/PreviousBoot 755
 CreateDir /boot/EFI/tools
 CopyFile /boot/refind_linux.conf 755
 CreateFile /etc/.pwd.lock 600 > /dev/null
-CopyFile /etc/.updated
 CopyFile /etc/NetworkManager/conf.d/20-connectivity.conf
 CopyFile /etc/adjtime
 CopyFile /etc/brlapi.key 640 '' brlapi
@@ -51,8 +50,6 @@ CopyFile /etc/pacman.d/hooks/touch-linux-kernel.hook
 CopyFile /etc/passwd
 CopyFile /etc/passwd-
 CopyFile /etc/plymouth/plymouthd.conf
-CopyFile /etc/resolv.conf
-CopyFile /etc/resolv.pre-tailscale-backup.conf
 CopyFile /etc/shadow
 CopyFile /etc/shadow- 600
 CopyFile /etc/shells

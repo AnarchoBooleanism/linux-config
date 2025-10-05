@@ -87,6 +87,7 @@ AddPackage e2fsprogs # Ext2/3/4 filesystem utilities
 AddPackage git # the fast distributed version control system
 AddPackage htop # Interactive process viewer
 AddPackage jq # Command-line JSON processor
+AddPackage keychain # A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login
 AddPackage man-db # A utility for reading man pages
 AddPackage nano # Pico editor clone with enhancements
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
