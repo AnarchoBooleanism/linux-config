@@ -35,3 +35,13 @@ colord:x:954:954:Color management daemon:/var/lib/colord:/usr/bin/nologin
 fwupd:x:952:952:Firmware update daemon:/var/lib/fwupd:/usr/bin/nologin
 passim:x:951:951:Local Caching Server:/usr/share/empty:/usr/bin/nologin
 saned:x:950:950:SANE daemon user:/:/usr/bin/nologin
+nixbld01:x:947:948:Nix builder 01:/:/usr/bin/nologin
+nixbld02:x:946:948:Nix builder 02:/:/usr/bin/nologin
+nixbld03:x:945:948:Nix builder 03:/:/usr/bin/nologin
+nixbld04:x:944:948:Nix builder 04:/:/usr/bin/nologin
+nixbld05:x:943:948:Nix builder 05:/:/usr/bin/nologin
+nixbld06:x:942:948:Nix builder 06:/:/usr/bin/nologin
+nixbld07:x:941:948:Nix builder 07:/:/usr/bin/nologin
+nixbld08:x:940:948:Nix builder 08:/:/usr/bin/nologin
+nixbld09:x:939:948:Nix builder 09:/:/usr/bin/nologin
+nixbld10:x:938:948:Nix builder 10:/:/usr/bin/nologin

@@ -55,6 +55,7 @@ AddPackage pipewire-pulse # Low-latency audio/video router and processor - Pulse
 AddPackage pipewire-v4l2 # Low-latency audio/video router and processor - V4L2 interceptor
 AddPackage sof-firmware # Sound Open Firmware
 AddPackage v4l2loopback-utils # v4l2-loopback device – utilities only
+AddPackageGroup realtime # Proper realtime audio for Linux
 
 # Printing
 AddPackage cups # OpenPrinting CUPS - daemon package

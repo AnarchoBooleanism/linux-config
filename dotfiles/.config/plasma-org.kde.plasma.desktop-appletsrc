@@ -167,14 +167,16 @@ DialogWidth=720
 currentDetailsTab=details
 
 [Containments][2][Applets][7][Applets][19][Configuration][WeatherStation]
-source=bbcukmet|weather|National City, United States, US|5376200
+placeDisplayName=National City, United States, US
+placeInfo=National City, United States, US|5376200
+provider=bbcukmet
 
 [Containments][2][Applets][7][Applets][20]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][20][Configuration]
-PreloadWeight=37
+PreloadWeight=62
 
 [Containments][2][Applets][7][Applets][20][Configuration][General]
 migrated=true
@@ -191,7 +193,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 currentDetailsTab=details
@@ -201,7 +203,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=0
+PreloadWeight=22
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
@@ -222,7 +224,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][2][Applets][7][Applets][8][Configuration]
-PreloadWeight=55
+PreloadWeight=85
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1

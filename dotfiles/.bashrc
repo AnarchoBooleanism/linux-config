@@ -112,7 +112,7 @@ source $HOME/.bash_variables # Variables
 eval $(keychain --eval --quiet --noask $KEYCHAIN_KEYS) # Using --confallhosts makes keychain unable to find their locations
 
 # Aliases
-alias update="paru && flatpak update"
+alias update="paru -Syu --sudoloop && flatpak update"
 alias update-config="(cd $CONFIG_DIR && git pull && stow -t ~ dotfiles)"
 
 # Hyfetch! :3

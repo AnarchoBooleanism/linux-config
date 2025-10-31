@@ -1,2 +1,5 @@
+[Common]
+OutlineIntensity=OutlineOff
+
 [Style]
 MenuOpacity=80
