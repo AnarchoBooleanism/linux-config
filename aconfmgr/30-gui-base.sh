@@ -1,7 +1,7 @@
 # List of base packages for GUI, being desktop environments
 
 # Prerequisites
-# AddPackage flatpak # Do this manually, aconfmgr doesn't like this
+AddPackage flatpak # Do this manually, aconfmgr doesn't like this
 AddPackage packagekit # A system designed to make installation and updates of packages easier
 AddPackage speech-dispatcher # High-level device independent layer for speech synthesis interface
 
@@ -38,8 +38,9 @@ AddPackage plasma-thunderbolt # Plasma integration for controlling Thunderbolt d
 AddPackage plasma-welcome # A friendly onboarding wizard for Plasma
 AddPackage plymouth-kcm # KCM to manage the Plymouth (Boot) theme
 AddPackage spectacle # KDE screenshot capture utility
-AddPackage --foreign darkly # Fork of Lightly (A modern style for Qt applications)
-AddPackage --foreign kwin-effects-forceblur # KWin Blur effect fork with window class force blur feature (Wayland & X11)
+AddPackage plasma-sdk # Applications useful for Plasma development
+AddPackage --foreign kwin-effect-rounded-corners-git # Rounds the corners of your windows (wayland)
+AddPackage --foreign kwin-effects-forceblur-git # KWin Blur effect fork with window class force blur feature (Wayland & X11)
 AddPackage --foreign kwin-effects-geometry-change # A KWin animation for windows moved or resized by programs or scripts
 AddPackage --foreign plasma6-themes-layan-git # A flat Design theme for KDE Plasma6 desktop
 

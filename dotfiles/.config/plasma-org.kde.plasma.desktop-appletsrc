@@ -368,7 +368,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][3][Applets][8][Applets][20][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][3][Applets][8][Applets][21]
 immutability=1
@@ -389,7 +389,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][3][Applets][8][Applets][23][Configuration]
-PreloadWeight=20
+PreloadWeight=0
 
 [Containments][3][Applets][8][Applets][43]
 immutability=1
@@ -403,7 +403,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][3][Applets][8][Applets][43][Configuration][WeatherStation]
-source=bbcukmet|weather|National City, United States, US|5376200
+placeDisplayName=National City, United States, US
+placeInfo=National City, United States, US|5376200
+provider=bbcukmet
 
 [Containments][3][Applets][8][Applets][44]
 immutability=1
@@ -421,7 +423,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][3][Applets][8][Applets][9][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][3][Applets][8][ConfigDialog]
 DialogHeight=540
@@ -521,7 +523,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][51][Applets][54][Applets][60][Configuration][WeatherStation]
-source=bbcukmet|weather|National City, United States, US|5376200
+placeDisplayName=National City, United States, US
+placeInfo=National City, United States, US|5376200
+provider=bbcukmet
 
 [Containments][51][Applets][54][Applets][61]
 immutability=1
@@ -550,7 +554,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][51][Applets][54][Applets][65][Configuration]
-PreloadWeight=30
+PreloadWeight=40
 
 [Containments][51][Applets][54][Applets][65][Configuration][General]
 migrated=true

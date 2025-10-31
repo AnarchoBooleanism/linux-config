@@ -48,3 +48,4 @@ nixbld07:x:939:946:Nix builder 07:/:/usr/bin/nologin
 nixbld08:x:938:946:Nix builder 08:/:/usr/bin/nologin
 nixbld09:x:937:946:Nix builder 09:/:/usr/bin/nologin
 nixbld10:x:936:946:Nix builder 10:/:/usr/bin/nologin
+saned:x:935:935:SANE daemon user:/:/usr/bin/nologin

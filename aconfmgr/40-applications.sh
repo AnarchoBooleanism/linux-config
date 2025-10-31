@@ -10,6 +10,7 @@ AddPackage --foreign game-devices-udev # Udev rules for controllers
 # Virtual Machine Manager
 AddPackage qemu-base # A basic QEMU setup for headless environments
 AddPackage qemu-full # A full QEMU setup
+AddPackage swtpm # Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
 AddPackage virt-manager # Desktop user interface for managing virtual machines
 
 AddPackage --foreign foldingathome # A distributed computing project for simulating protein dynamics

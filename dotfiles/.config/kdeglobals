@@ -132,14 +132,8 @@ ForegroundNormal=234,234,234
 ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
-[DirSelect Dialog]
-DirSelectDialog Size=720,960
-History Items[$e]=file:$HOME,file:$HOME/.linux-config,file:$HOME/Downloads/BlurGlassyKvantum,file:$HOME/Downloads/KvGlass,file:$HOME/Downloads/Fluent-Dark,file:$HOME/ansible-test,file:$HOME,file:$HOME,file:$HOME/.linux-config,file:$HOME
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x97\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
-
 [General]
 AccentColor=0,0,0,0
-ColorScheme=Layan
 ColorSchemeHash=57f15b37fc308d880ecdd98214c35c74663c361a
 LastUsedCustomAccentColor=0,211,184
 XftAntialias=true
@@ -152,20 +146,17 @@ menuFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Open Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
-[Icons]
-Theme=breeze
-
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
-widgetStyle=kvantum-dark
+AutomaticLookAndFeel=true
+DefaultDarkLookAndFeel=custom-anarchbool-dark
+DefaultLightLookAndFeel=custom-anarchbool-light
+LookAndFeelPackage=custom-anarchbool-dark
 
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=false
 Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false

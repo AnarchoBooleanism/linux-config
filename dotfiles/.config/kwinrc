@@ -1,6 +1,3 @@
-[Activities][LastVirtualDesktop]
-a1956f90-f5ec-4a5f-b61f-ff498ced2ae0=ef3d5f5b-3b67-4630-87ce-df9534d19721
-
 [Desktops]
 Id_1=ef3d5f5b-3b67-4630-87ce-df9534d19721
 Number=1
@@ -37,9 +34,6 @@ MoveResize=100
 
 [NightColor]
 Active=true
-LatitudeFixed=31.965482445851514
-LongitudeFixed=-116.4104231214708
-Mode=Location
 
 [Plugins]
 blurEnabled=false
@@ -47,6 +41,12 @@ contrastEnabled=false
 forceblurEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
+
+[Round-Corners]
+InactiveOutlineThickness=0
+InactiveSecondOutlineThickness=0
+OutlineThickness=0
+SecondOutlineThickness=0
 
 [Tiling]
 padding=4
@@ -108,6 +108,6 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=M
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Layan

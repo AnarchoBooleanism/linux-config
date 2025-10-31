@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "anarchbool@anarchbool.dev",
+                "Name": "Nathan Guerrero"
+            }
+        ],
+        "Description": "",
+        "Id": "custom-anarchbool-light",
+        "License": "LGPL 2.1+",
+        "Name": "custom-anarchbool-light",
+        "Website": "anarchbool.dev"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default"
+}
