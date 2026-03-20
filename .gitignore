@@ -1,1 +1,25 @@
-/secrets
+secrets/
+
+.env
+.env.*
+**/.env
+**/*.env
+**/.env.*
+
+# Logs
+*.log
+
+# OS & IDE specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Artifacts, temporary files
+*.tar
+*.gz
+*.zip
+tmp/
+temp/
