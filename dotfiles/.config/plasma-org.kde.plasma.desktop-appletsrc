@@ -86,7 +86,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,file:///home/hihacks/.local/share/flatpak/exports/share/applications/one.ablaze.floorp.desktop,applications:vesktop.desktop,applications:com.system76.CosmicTerm.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:floorp.desktop,applications:vesktop.desktop,applications:com.system76.CosmicTerm.desktop
 
 [Containments][2][Applets][6]
 immutability=1

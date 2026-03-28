@@ -7,4 +7,4 @@ To backup the list of Flatpak applications to `apps.txt`, run `flatpak list --co
 - `tail -n +1` - Skip the first line of the previous command, since the previous command usually prints **`Application ID`** as the first line, and we only want the names of Flatpak applications; the output gets piped to the next command
 - `tee ./flatpak/apps.txt` - Writing all of the output from the previous command to `apps.txt`, overwriting any existing contents of the file
 
-To reinstall all of these Flatpak applications, run `xargs flatpak install < ./flatpak/apps.txt` (explanation: xargs uses the contents of `apps.txt` as arguments for `flatpak install`, then runs the command)
+To reinstall all of these Flatpak applications, run `xargs flatpak install -y < ./flatpak/apps.txt` (explanation: xargs uses the contents of `apps.txt` as arguments for `flatpak install`, then runs the command)
