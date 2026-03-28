@@ -9,6 +9,8 @@ AddPackage linux-firmware-marvell # Firmware files for Linux - Firmware for Marv
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
 AddPackage linux-lts # The LTS Linux kernel and modules
 AddPackage linux-lts-headers # Headers and scripts for building modules for the LTS Linux kernel
+AddPackage linux-zen # The Linux ZEN kernel and modules
+AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
 
 # Bootloader
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
@@ -18,8 +20,10 @@ AddPackage sbctl # Secure Boot key manager
 # Aconfmgr
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 
-# Paru
+# AUR
 AddPackage --foreign paru # Feature packed AUR helper
+AddPackage --foreign paru-debug # Detached debugging symbols for paru
+AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
 
 # Power
 AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
@@ -36,6 +40,9 @@ AddPackage tailscale # A mesh VPN that makes it easy to connect your devices, wh
 AddPackage wireguard-tools # next generation secure network tunnel - tools for configuration
 AddPackage wireless_tools # Tools allowing to manipulate the Wireless Extensions
 AddPackage wpa_supplicant # A utility providing key negotiation for WPA wireless networks
+
+# Files
+AddPackage gvfs-smb # Virtual filesystem implementation for GIO - SMB/CIFS backend (Windows file sharing)
 
 # Security
 AddPackage apparmor # Mandatory Access Control (MAC) using Linux Security Module (LSM)

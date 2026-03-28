@@ -39,6 +39,7 @@ Active=true
 blurEnabled=false
 contrastEnabled=false
 forceblurEnabled=true
+glassEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
 
@@ -48,10 +49,8 @@ InactiveSecondOutlineThickness=0
 OutlineThickness=0
 SecondOutlineThickness=0
 
-[Tiling]
-padding=4
-
 [Tiling][0dd1f87d-11e2-4a45-981d-337b44ee9ef1][158a2fb5-dc89-4f6c-9dbf-6d01946fb612]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][0dd1f87d-11e2-4a45-981d-337b44ee9ef1][1ffc4c64-e160-4dc5-b6b8-8ce2eaa9c07a]

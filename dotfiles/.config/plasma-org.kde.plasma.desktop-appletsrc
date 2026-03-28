@@ -36,7 +36,6 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][16][Configuration]
-PreloadWeight=80
 popupHeight=450
 popupWidth=552
 
@@ -58,7 +57,6 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=100
 popupHeight=623
 popupWidth=671
 
@@ -88,7 +86,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,file:///var/lib/flatpak/exports/share/applications/org.mozilla.firefox.desktop,file:///var/lib/flatpak/exports/share/applications/com.discordapp.Discord.desktop,applications:com.system76.CosmicTerm.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,file:///home/hihacks/.local/share/flatpak/exports/share/applications/one.ablaze.floorp.desktop,applications:vesktop.desktop,applications:com.system76.CosmicTerm.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -117,9 +115,6 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][2][Applets][7][Applets][11][Configuration]
-PreloadWeight=70
-
 [Containments][2][Applets][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -132,22 +127,13 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][2][Applets][7][Applets][14][Configuration]
-PreloadWeight=65
-
 [Containments][2][Applets][7][Applets][15]
 immutability=1
 plugin=org.kde.kscreen
 
-[Containments][2][Applets][7][Applets][15][Configuration]
-PreloadWeight=55
-
 [Containments][2][Applets][7][Applets][18]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
-
-[Containments][2][Applets][7][Applets][18][Configuration]
-PreloadWeight=46
 
 [Containments][2][Applets][7][Applets][18][Configuration][General]
 migrated=true
@@ -155,9 +141,6 @@ migrated=true
 [Containments][2][Applets][7][Applets][19]
 immutability=1
 plugin=org.kde.plasma.weather
-
-[Containments][2][Applets][7][Applets][19][Configuration]
-PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
@@ -175,9 +158,6 @@ provider=bbcukmet
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][2][Applets][7][Applets][20][Configuration]
-PreloadWeight=62
-
 [Containments][2][Applets][7][Applets][20][Configuration][General]
 migrated=true
 
@@ -185,15 +165,9 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
-[Containments][2][Applets][7][Applets][21][Configuration]
-PreloadWeight=0
-
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
-
-[Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 currentDetailsTab=details
@@ -202,36 +176,21 @@ currentDetailsTab=details
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=22
-
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.brightness
-
-[Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
-[Containments][2][Applets][7][Applets][25][Configuration]
-PreloadWeight=0
-
 [Containments][2][Applets][7][Applets][8]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][2][Applets][7][Applets][8][Configuration]
-PreloadWeight=85
-
 [Containments][2][Applets][7][Applets][9]
 immutability=1
 plugin=org.kde.kdeconnect
-
-[Containments][2][Applets][7][Applets][9][Configuration]
-PreloadWeight=60
 
 [Containments][2][Applets][7][ConfigDialog]
 DialogHeight=540

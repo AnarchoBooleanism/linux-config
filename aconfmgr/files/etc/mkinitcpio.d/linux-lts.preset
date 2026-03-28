@@ -2,8 +2,10 @@
 
 #ALL_config="/etc/mkinitcpio.conf"
 ALL_kver="/boot/vmlinuz-linux-lts"
+#ALL_kerneldest="/boot/vmlinuz-linux-lts"
 
-PRESETS=('default' 'fallback')
+PRESETS=('default')
+#PRESETS=('default' 'fallback')
 
 #default_config="/etc/mkinitcpio.conf"
 default_image="/boot/initramfs-linux-lts.img"
@@ -11,6 +13,6 @@ default_image="/boot/initramfs-linux-lts.img"
 #default_options="--splash /usr/share/systemd/bootctl/splash-arch.bmp"
 
 #fallback_config="/etc/mkinitcpio.conf"
-fallback_image="/boot/initramfs-linux-lts-fallback.img"
+#fallback_image="/boot/initramfs-linux-lts-fallback.img"
 #fallback_uki="/efi/EFI/Linux/arch-linux-lts-fallback.efi"
-fallback_options="-S autodetect"
+#fallback_options="-S autodetect"

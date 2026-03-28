@@ -9,13 +9,15 @@ com.ranfdev.DistroShelf
 com.rustdesk.RustDesk
 com.spotify.Client
 dev.deedles.Trayscale
-dev.vencord.Vesktop
+dev.edfloreshz.CosmicTweaks
+io.github.cosmic_utils.cosmic-ext-applet-clipboard-manager
+io.github.cosmic_utils.weather-applet
 io.github.gaheldev.Millisecond
 io.missioncenter.MissionCenter
+io.mrarm.mcpelauncher
 it.mijorus.gearlever
 net.ankiweb.Anki
 org.audacityteam.Audacity
-org.chromium.Chromium
 org.deluge_torrent.deluge
 org.filezillaproject.Filezilla
 org.gimp.GIMP
@@ -39,7 +41,6 @@ org.kde.skanlite
 org.libreoffice.LibreOffice
 org.mozilla.firefox
 org.onlyoffice.desktopeditors
-org.prismlauncher.PrismLauncher
 org.videolan.VLC
 org.virt_manager.virt-viewer
 us.zoom.Zoom

@@ -1,5 +1,6 @@
 # List of directories/files to ignore
 
+IgnorePath "**/*.pacnew" # .pacnew files will come up anyway
 IgnorePath "/logs/*" # No logs needed
 IgnorePath "/mnt/*" # All important data to backup is in other dirs
 IgnorePath "/nix/*" # Nix data, will be regenerated anyway

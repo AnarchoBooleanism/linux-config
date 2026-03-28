@@ -114,6 +114,7 @@ eval $(keychain --eval --quiet --noask $KEYCHAIN_KEYS) # Using --confallhosts ma
 # Aliases
 alias update="paru -Syu --sudoloop && flatpak update"
 alias update-config="(cd $CONFIG_DIR && git pull && stow -t ~ dotfiles)"
+alias update-reflector="sudo systemctl restart reflector.service"
 
 # Hyfetch! :3
 hyfetch

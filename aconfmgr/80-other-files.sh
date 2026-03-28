@@ -39,7 +39,6 @@ CopyFile /etc/gufw/Public.profile 600
 CopyFile /etc/gufw/gufw.cfg 600
 CopyFile /etc/hostname
 CopyFile /etc/hosts
-CopyFile /etc/hosts.pacnew
 CopyFile /etc/issue
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen
@@ -61,13 +60,11 @@ CopyFile /etc/shadow
 CopyFile /etc/shadow- 600
 CopyFile /etc/shells
 CopyFile /etc/ssh/sshd_config
-CopyFile /etc/ssh/sshd_config.pacnew
 CopyFile /etc/subgid
 CreateFile /etc/subgid- > /dev/null
 CopyFile /etc/subuid
 CreateFile /etc/subuid- > /dev/null
 CopyFile /etc/sudoers
-CopyFile /etc/sudoers.pacnew 440
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
 CreateLink /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
@@ -84,3 +81,10 @@ CreateDir /lost+found 700
 CreateDir /opt/containerd/bin 711
 CreateDir /opt/containerd/lib 711
 SetFileProperty /opt/containerd mode 711
+CreateDir /etc/audisp
+CreateDir /etc/audit/plugins.d 750
+CreateDir /etc/audit/rules.d
+CopyFile /etc/makepkg.conf.d/fortran.conf
+CopyFile /etc/mkinitcpio.d/linux-zen.preset
+CopyFile /etc/profile.d/data_control_cosmic.sh
+CreateLink /etc/systemd/system/autovt@.service /usr/lib/systemd/system/getty@.service

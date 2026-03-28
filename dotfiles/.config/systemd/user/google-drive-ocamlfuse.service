@@ -1,0 +1,15 @@
+[Unit]
+Description=Google Drive OCamlfuse Mount
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/google-drive-ocamlfuse %h/google-drive
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
