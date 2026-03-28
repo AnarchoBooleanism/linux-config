@@ -5,7 +5,6 @@ CopyFile /boot/EFI/BOOT/refind.conf 755
 CopyFile /boot/EFI/BOOT/refind.conf-sample 755
 CopyFile /boot/EFI/BOOT/refind.conf.bak 755
 CreateDir /boot/EFI/BOOT/themes
-CopyFile /boot/EFI/BOOT/vars/PreviousBoot 755
 CreateDir /boot/EFI/tools
 CopyFile /boot/refind_linux.conf 755
 CreateFile /etc/.pwd.lock 600 > /dev/null

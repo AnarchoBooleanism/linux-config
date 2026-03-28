@@ -140,4 +140,3 @@ AddPackage wol # Wake On LAN functionality in a small program. It wakes up hardw
 # Miscellaenous, not sure what they're here for
 AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
 AddPackage tftp-hpa # Official tftp server
-AddPackage --foreign gnu-netcat # GNU rewrite of netcat, the network piping application
