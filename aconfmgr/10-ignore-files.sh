@@ -2,6 +2,7 @@
 
 IgnorePath "**/*.pacnew" # .pacnew files will come up anyway
 IgnorePath "/logs/*" # No logs needed
+    IgnorePath "**/log.txt"
 IgnorePath "/mnt/*" # All important data to backup is in other dirs
 IgnorePath "/nix/*" # Nix data, will be regenerated anyway
 IgnorePath "/timeshift/*" # Timeshift data, should be dealt with elsewhere
