@@ -3,13 +3,17 @@
 
 # <file system> <dir> <type> <options> <dump> <pass>
 # /dev/nvme0n1p8
-UUID=b77ebe59-41af-4854-8bb0-8dcd7aab996a	/         	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/	0 0
+UUID=b77ebe59-41af-4854-8bb0-8dcd7aab996a	/         	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@	0 0
 
-# /dev/nvme0n1p7
+# /dev/nvme0n1p8
+UUID=b77ebe59-41af-4854-8bb0-8dcd7aab996a	/home     	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@home	0 0
+
+# /dev/nvme0n1p5 LABEL=MEDIA
+UUID=52F2AAB8F2AAA029	/mnt/MEDIA	ntfs      	rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
+
+# /dev/nvme0n1p7 LABEL=Arch\134x20boot
 UUID=7D23-2A51      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
 # /dev/nvme1n1p1
 UUID=4da0c1de-6d25-4819-b1a6-e8b594c83125	none      	swap      	defaults  	0 0
-
-/dev/disk/by-uuid/52F2AAB8F2AAA029 /mnt/MEDIA auto nosuid,nodev,nofail,x-gvfs-show 0 0
 
