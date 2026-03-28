@@ -24,6 +24,7 @@ IgnorePath /boot/EFI/BOOT/themes/refind-theme-regular/.devcontainer/devcontainer
     IgnorePath "/boot/EFI/BOOT/icons/*"
     IgnorePath "/boot/EFI/BOOT/icons-backup"
 IgnorePath "/boot/loader/*" # Stuff that is defined in conf files
+IgnorePath "/boot/EFI/BOOT/vars/*" # Not needed to be known
 
 # /etc directories, either for privacy or as they will be regenerated on install
 IgnorePath "/etc/.updated" # Auto-generated
@@ -50,3 +51,5 @@ IgnorePath "/etc/ssh/*_key" # Avoid giving out SSH keys to public
 IgnorePath "/etc/wireguard/*" # Avoid giving out Wireguard keys to public
 IgnorePath "/etc/X11/*" # Anything X11
 IgnorePath "/etc/xml/*" # XML catalog
+IgnorePath "/etc/fonts/conf.d/*" # All font configs
+IgnorePath "/etc/realtime" # This is system-specific, generated on the spot

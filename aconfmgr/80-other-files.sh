@@ -6,9 +6,6 @@ CopyFile /boot/EFI/BOOT/refind.conf-sample 755
 CopyFile /boot/EFI/BOOT/refind.conf.bak 755
 CreateDir /boot/EFI/tools
 CreateDir /boot/System\ Volume\ Information
-CreateDir /boot/loader/keys
-CopyFile /boot/loader/loader.conf 755
-CopyFile /boot/loader/random-seed 755
 CopyFile /boot/refind_linux.conf 755
 CreateFile /etc/.pwd.lock 600 > /dev/null
 CopyFile /etc/adjtime

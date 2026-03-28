@@ -81,11 +81,13 @@ AddPackage nvme-cli # NVM-Express user space tooling for Linux
 AddPackage 7zip # File archiver for extremely high compression
 AddPackage bash-completion # Programmable completion for the bash shell
 AddPackage base-devel # Basic tools to build Arch Linux packages
+AddPackage btrfs-progs # Btrfs filesystem utilities
 AddPackage dialog # A tool to display dialog boxes from shell scripts
 AddPackage dmidecode # Desktop Management Interface table related utilities
 AddPackage e2fsprogs # Ext2/3/4 filesystem utilities
 AddPackage git # the fast distributed version control system
 AddPackage htop # Interactive process viewer
+AddPackage intel-gpu-tools # Tools for development and testing of the Intel DRM driver
 AddPackage jq # Command-line JSON processor
 AddPackage keychain # A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login
 AddPackage man-db # A utility for reading man pages
@@ -93,6 +95,7 @@ AddPackage nano # Pico editor clone with enhancements
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
 AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
+AddPackage rust # Systems programming language focused on safety, speed and concurrency
 AddPackage stow # Manage installation of multiple softwares in the same directory tree
 AddPackage tmux # Terminal multiplexer
 AddPackage unrar # The RAR uncompression program
@@ -127,9 +130,7 @@ AddPackage reflector # A Python 3 module and script to retrieve and filter the l
 AddPackage texinfo # GNU documentation system for on-line information and printed output
 AddPackage unzip # For extracting and viewing files in .zip archives
 AddPackage wol # Wake On LAN functionality in a small program. It wakes up hardware that is Magic Packet compliant
-AddPackage --foreign google-drive-ocamlfuse # FUSE-based file system backed by Google Drive, written in OCaml
 
 # Miscellaenous, not sure what they're here for
 AddPackage libxml2-legacy # XML C parser and toolkit (legacy version)
 AddPackage tftp-hpa # Official tftp server
-AddPackage --foreign gnu-netcat # GNU rewrite of netcat, the network piping application
