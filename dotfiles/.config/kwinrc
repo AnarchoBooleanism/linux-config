@@ -39,6 +39,7 @@ Active=true
 blurEnabled=false
 contrastEnabled=false
 forceblurEnabled=true
+glassEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 translucencyEnabled=true
 
@@ -47,9 +48,6 @@ InactiveOutlineThickness=0
 InactiveSecondOutlineThickness=0
 OutlineThickness=0
 SecondOutlineThickness=0
-
-[Tiling]
-padding=4
 
 [Tiling][2f6ed5d6-8089-48b2-bdb6-824bdb564acd][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -94,9 +92,11 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][ef3d5f5b-3b67-4630-87ce-df9534d19721][7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][ef3d5f5b-3b67-4630-87ce-df9534d19721][c209c4b4-64f4-492e-b2b4-794e62c891ac]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
@@ -111,3 +111,4 @@ Scale=1
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=M
+library=org.kde.kwin.aurorae.v2

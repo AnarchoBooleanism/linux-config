@@ -40,8 +40,8 @@ AddPackage plymouth-kcm # KCM to manage the Plymouth (Boot) theme
 AddPackage spectacle # KDE screenshot capture utility
 AddPackage plasma-sdk # Applications useful for Plasma development
 AddPackage --foreign kwin-effect-rounded-corners-git # Rounds the corners of your windows (wayland)
-AddPackage --foreign kwin-effects-forceblur-git # KWin Blur effect fork with window class force blur feature (Wayland & X11)
 AddPackage --foreign kwin-effects-geometry-change # A KWin animation for windows moved or resized by programs or scripts
+AddPackage --foreign kwin-effects-glass-git # Fork of Plasma 6 blur effect with force blur, rounded corners, refraction (Wayland 6.6+)
 AddPackage --foreign plasma6-themes-layan-git # A flat Design theme for KDE Plasma6 desktop
 
 # Miscellaneous

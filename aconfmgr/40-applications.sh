@@ -1,5 +1,7 @@
 # List of extra (mostly GUI) applications to install
 
+AddPackage chromium # A web browser built for speed, simplicity, and security
+AddPackage prismlauncher # Minecraft launcher with ability to manage multiple instances
 AddPackage sunshine # Self-hosted game stream host for Moonlight
 
 # Steam
@@ -13,8 +15,10 @@ AddPackage qemu-full # A full QEMU setup
 AddPackage swtpm # Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
 AddPackage virt-manager # Desktop user interface for managing virtual machines
 
+AddPackage --foreign floorp-bin # Firefox-based web browser focused on performance and customizability
 AddPackage --foreign foldingathome # A distributed computing project for simulating protein dynamics
 AddPackage --foreign rustdesk-bin # Yet another remote desktop software, written in Rust. Works out of the box, no configuration required.
+AddPackage --foreign vesktop-bin # A cross platform electron-based desktop app aiming to give you a snappier Discord experience with Vencord pre-installed.(Prebuilt version.Use system-wide electron)
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 AddPackage --foreign winboat # Run Windows apps on Linux with seamless integration
 

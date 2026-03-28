@@ -1,0 +1,225 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "MSI GeForce GTX 1660 Ti Gaming X",
+                    "is_segment": false,
+                    "location": "I2C: NVIDIA i2c adapter 1 at 7:00.0\n (/dev/i2c-0), address 0x68",
+                    "name": "MSI GeForce GTX 1660 Ti Gaming X",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "MSI",
+                    "version": "",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Logitech Wireless Lightspeed Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1 (Receiver) \r\nWireless Index: 255",
+                    "name": "G502 HERO Gaming Mouse",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "Logitech",
+                    "version": "",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Logitech Wireless Lightspeed Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw1 (Receiver) \r\nWireless Index: 255",
+                    "name": "G502 HERO Gaming Mouse",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "Logitech",
+                    "version": "",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw5",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 8
+                },
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw5",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 10
+                },
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw5",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 13
+                },
+                {
+                    "description": "Corsair Peripheral V2 SW Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw3",
+                    "name": "Corsair MM700",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "16013032AFAD8903626B3FCEF5001C00",
+                    "vendor": "Corsair",
+                    "version": "",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "Corsair Peripheral V2 SW Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw3",
+                    "name": "Corsair MM700",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "16013032AFAD8903626B3FCEF5001C00",
+                    "vendor": "Corsair",
+                    "version": "",
+                    "zone_idx": 1
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "colors": [
+                    255,
+                    15073535,
+                    16711680,
+                    16757504,
+                    5373696,
+                    65514,
+                    46079,
+                    255
+                ],
+                "direction": 2,
+                "height": 50,
+                "spread": 51,
+                "width": 50
+            },
+            "EffectClassName": "CustomGradientWave",
+            "FPS": 60,
+            "RandomColors": false,
+            "SelectAll": false,
+            "Slider2Val": 1,
+            "Speed": 25,
+            "Temperature": 0,
+            "Tint": 0
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw5",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 7
+                },
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw5",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 9
+                },
+                {
+                    "description": "DRGB Controller Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw5",
+                    "name": "Airgoo AG-DRGB16",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "240750E001",
+                    "vendor": "DRGB",
+                    "version": "v0.0.0.0",
+                    "zone_idx": 15
+                },
+                {
+                    "description": "Corsair Peripheral V2 SW Device",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw3",
+                    "name": "Corsair MM700",
+                    "reverse": true,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "16013032AFAD8903626B3FCEF5001C00",
+                    "vendor": "Corsair",
+                    "version": "",
+                    "zone_idx": 2
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "colors": [
+                    255,
+                    15073535,
+                    16711680,
+                    16757504,
+                    5373696,
+                    65514,
+                    46079,
+                    255
+                ],
+                "direction": 3,
+                "height": 50,
+                "spread": 50,
+                "width": 50
+            },
+            "EffectClassName": "CustomGradientWave",
+            "FPS": 60,
+            "RandomColors": false,
+            "SelectAll": false,
+            "Slider2Val": 1,
+            "Speed": 25,
+            "Temperature": 0,
+            "Tint": 0
+        }
+    ],
+    "version": 2
+}

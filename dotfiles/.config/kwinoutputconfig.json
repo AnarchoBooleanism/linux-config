@@ -4,7 +4,16 @@
             {
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
+                "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
                 "autoRotation": "InTabletMode",
+                "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
@@ -26,6 +35,7 @@
                 "scale": 1,
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
+                "sharpness": 0,
                 "transform": "Normal",
                 "uuid": "c209c4b4-64f4-492e-b2b4-794e62c891ac",
                 "vrrPolicy": "Automatic",
@@ -34,7 +44,16 @@
             {
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
+                "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
                 "autoRotation": "InTabletMode",
+                "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
@@ -56,6 +75,7 @@
                 "scale": 1,
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
+                "sharpness": 0,
                 "transform": "Rotated90",
                 "uuid": "7ccbd030-a3ff-4c2c-99d4-6822ee5d38ac",
                 "vrrPolicy": "Never",
@@ -76,7 +96,7 @@
                             "x": 1080,
                             "y": 448
                         },
-                        "priority": 0,
+                        "priority": 1,
                         "replicationSource": ""
                     },
                     {
@@ -86,7 +106,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": 2,
                         "replicationSource": ""
                     }
                 ]

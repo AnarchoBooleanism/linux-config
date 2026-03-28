@@ -32,7 +32,6 @@ CopyFile /etc/gufw/Public.profile 600
 CopyFile /etc/gufw/gufw.cfg 600
 CopyFile /etc/hostname
 CopyFile /etc/hosts
-CopyFile /etc/hosts.pacnew
 CopyFile /etc/issue
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen
@@ -54,22 +53,15 @@ CopyFile /etc/shadow
 CopyFile /etc/shadow- 600
 CopyFile /etc/shells
 CopyFile /etc/ssh/sshd_config
-CopyFile /etc/ssh/sshd_config.pacnew
 CopyFile /etc/subgid
 CreateFile /etc/subgid- > /dev/null
 CopyFile /etc/subuid
 CreateFile /etc/subuid- > /dev/null
 CopyFile /etc/sudoers
-CopyFile /etc/sudoers.pacnew 440
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
 CreateLink /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.timesync1.service /usr/lib/systemd/system/systemd-timesyncd.service
-CreateLink /etc/systemd/system/systemd-hibernate.service.wants/nvidia-hibernate.service /usr/lib/systemd/system/nvidia-hibernate.service
-CreateLink /etc/systemd/system/systemd-hibernate.service.wants/nvidia-resume.service /usr/lib/systemd/system/nvidia-resume.service
-CreateLink /etc/systemd/system/systemd-suspend-then-hibernate.service.wants/nvidia-resume.service /usr/lib/systemd/system/nvidia-resume.service
-CreateLink /etc/systemd/system/systemd-suspend.service.wants/nvidia-resume.service /usr/lib/systemd/system/nvidia-resume.service
-CreateLink /etc/systemd/system/systemd-suspend.service.wants/nvidia-suspend.service /usr/lib/systemd/system/nvidia-suspend.service
 CopyFile /etc/systemd/system/wol.service
 CreateLink /etc/systemd/user/pipewire-session-manager.service /usr/lib/systemd/user/wireplumber.service
 CreateLink /etc/systemd/user/pipewire.service.wants/wireplumber.service /usr/lib/systemd/user/wireplumber.service
@@ -83,3 +75,14 @@ CreateDir /lost+found 700
 CreateDir /opt/containerd/bin 711
 CreateDir /opt/containerd/lib 711
 SetFileProperty /opt/containerd mode 711
+CreateDir /etc/audisp
+CreateDir /etc/audit/plugins.d 750
+CreateDir /etc/audit/rules.d
+CopyFile /etc/cdi/nvidia.yaml
+CopyFile /etc/makepkg.conf.d/fortran.conf
+CopyFile /etc/mkinitcpio.d/linux-zen.preset
+CopyFile /etc/openrgb/sizes.ors
+CopyFile /etc/profile.d/data_control_cosmic.sh
+CreateLink /etc/systemd/system/autovt@.service /usr/lib/systemd/system/getty@.service
+CopyFile /opt/ventoy/Ventoy2Disk.ini
+CopyFile /etc/cups/classes.conf.O 600 '' cups

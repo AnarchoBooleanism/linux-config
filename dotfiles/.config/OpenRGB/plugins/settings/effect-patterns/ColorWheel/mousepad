@@ -1,0 +1,16 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "cx": 50,
+        "cy": 50,
+        "direction": 0
+    },
+    "EffectClassName": "ColorWheel",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 1,
+    "Speed": 70,
+    "Temperature": 0,
+    "Tint": 0
+}

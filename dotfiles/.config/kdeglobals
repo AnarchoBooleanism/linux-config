@@ -134,8 +134,8 @@ ForegroundVisited=224,64,251
 
 [General]
 AccentColor=0,0,0,0
-ColorSchemeHash=57f15b37fc308d880ecdd98214c35c74663c361a
-LastUsedCustomAccentColor=0,211,184
+ColorSchemeHash=625c32ae46f33771aca7694ab0deae5a44bbf41c
+LastUsedCustomAccentColor=61,212,37
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -146,11 +146,16 @@ menuFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Open Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
+[Icons]
+Theme=breeze
+
 [KDE]
-AutomaticLookAndFeel=true
-DefaultDarkLookAndFeel=custom-anarchbool-dark
+AutomaticLookAndFeel=false
+DefaultDarkLookAndFeel=com.github.vinceliuice.Layan
 DefaultLightLookAndFeel=custom-anarchbool-light
-LookAndFeelPackage=custom-anarchbool-dark
+LookAndFeelPackage=com.github.vinceliuice.Layan
+contrast=0
+frameContrast=0.2
 
 [KFileDialog Settings]
 Allow Expansion=false
