@@ -4,19 +4,13 @@ CreateDir /boot/EFI/BOOT/keys
 CopyFile /boot/EFI/BOOT/refind.conf 755
 CopyFile /boot/EFI/BOOT/refind.conf-sample 755
 CopyFile /boot/EFI/BOOT/refind.conf.bak 755
-CopyFile /boot/EFI/BOOT/refind_x64.efi 755
-CopyFile /boot/EFI/BOOT/vars/PreviousBoot 755
 CreateDir /boot/EFI/tools
 CreateDir /boot/System\ Volume\ Information
-CopyFile /boot/loader/entries.srel 755
-CopyFile /boot/loader/entries/arch-fallback.conf 755
-CopyFile /boot/loader/entries/arch.conf 755
 CreateDir /boot/loader/keys
 CopyFile /boot/loader/loader.conf 755
 CopyFile /boot/loader/random-seed 755
 CopyFile /boot/refind_linux.conf 755
 CreateFile /etc/.pwd.lock 600 > /dev/null
-CopyFile /etc/NetworkManager/conf.d/20-connectivity.conf
 CopyFile /etc/adjtime
 CopyFile /etc/brlapi.key 640 '' brlapi
 CreateDir /etc/cni/net.d 700
