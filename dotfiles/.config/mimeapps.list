@@ -215,3 +215,4 @@ text/html=firefox.desktop
 x-scheme-handler/geo=org.gnome.Maps.desktop
 x-scheme-handler/http=org.mozilla.firefox.desktop;firefox.desktop
 x-scheme-handler/https=org.mozilla.firefox.desktop;firefox.desktop
+x-scheme-handler/discord=vesktop.desktop;
