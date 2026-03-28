@@ -1,0 +1,2 @@
+## Services
+These are Docker Compose services that are built to run in our Linux system, often to supplement the Sapphic Homelab. This is because our Linux system contains resources, like GPUs, that can be very handy for certain tasks, like Immich Machine Learning.
