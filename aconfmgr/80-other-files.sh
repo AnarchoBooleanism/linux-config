@@ -79,3 +79,4 @@ CopyFile /etc/makepkg.conf.d/fortran.conf
 CopyFile /etc/mkinitcpio.d/linux-zen.preset
 CopyFile /etc/profile.d/data_control_cosmic.sh
 CreateLink /etc/systemd/system/autovt@.service /usr/lib/systemd/system/getty@.service
+CopyFile /etc/sysctl.d/99-swappiness.conf

@@ -102,3 +102,4 @@ Scale=1
 BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=M
+library=org.kde.kwin.aurorae.v2
