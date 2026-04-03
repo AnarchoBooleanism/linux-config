@@ -1,6 +1,7 @@
 [Common]
-OutlineIntensity=OutlineMedium
-RoundedCorners=true
+OutlineEnabled=false
+OutlineIntensity=OutlineOff
+RoundedCorners=false
 
 [Style]
 MenuOpacity=80

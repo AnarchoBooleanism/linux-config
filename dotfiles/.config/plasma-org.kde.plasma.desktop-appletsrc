@@ -29,6 +29,7 @@ SlidePaths=/usr/share/wallpapers/
 [Containments][2]
 ItemGeometries-1080x1920=
 ItemGeometries-1920x1080=
+ItemGeometries-768x1024=
 ItemGeometriesHorizontal=
 ItemGeometriesVertical=
 activityId=a1956f90-f5ec-4a5f-b61f-ff498ced2ae0
