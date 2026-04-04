@@ -1,13 +1,28 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
 # /dev/nvme0n1p6
-UUID=61f285b0-8eee-4626-871f-78fc6405261c	/         	ext4      	rw,relatime	0 1
+UUID=a9f6ea92-dc85-434f-aee3-39fff0e179c6	/         	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@	0 0
+
+# /dev/nvme0n1p6
+UUID=a9f6ea92-dc85-434f-aee3-39fff0e179c6	/home     	btrfs     	rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@home	0 0
+
+# /dev/nvme0n1p3 LABEL=Windows
+UUID=144A4FEB4A4FC7E6	/mnt/Windows	ntfs      	rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
+
+# /dev/nvme0n1p7 LABEL=SSD-Common
+UUID=6B533ADB145A349E	/mnt/SSD-Common	ntfs      	rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
+
+# /dev/sda4 LABEL=Extras
+UUID=C8247DAC247D9E5E	/mnt/Extras	ntfs      	rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
+
+# /dev/sda5 LABEL=MEDIA
+UUID=D426-7029      	/mnt/MEDIA	exfat     	rw,relatime,fmask=0022,dmask=0022,iocharset=utf8,errors=remount-ro	0 2
 
 # /dev/nvme0n1p4
-UUID=CD5C-7A3B      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+UUID=6118-BFF9      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
 # /dev/nvme0n1p5
-UUID=cfa3c94c-12b2-4eed-b169-48af1f0a1f70	none      	swap      	defaults  	0 0
+UUID=3a8fd5f7-b7cd-4398-950e-3b4cfa17b709	none      	swap      	defaults  	0 0
 
-/dev/disk/by-uuid/C8247DAC247D9E5E /mnt/Extras auto nosuid,nodev,nofail,x-gvfs-show 0 0
-/dev/disk/by-uuid/144A4FEB4A4FC7E6 /mnt/Windows auto nosuid,nodev,nofail,x-gvfs-show 0 0
-/dev/disk/by-uuid/6B533ADB145A349E /mnt/SSD-Common auto nosuid,nodev,nofail,x-gvfs-show 0 0
-/dev/disk/by-uuid/D426-7029 /mnt/MEDIA auto nosuid,nodev,nofail,x-gvfs-show 0 0
