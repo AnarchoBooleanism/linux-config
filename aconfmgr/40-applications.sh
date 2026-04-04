@@ -2,7 +2,7 @@
 
 AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage prismlauncher # Minecraft launcher with ability to manage multiple instances
-AddPackage sunshine # Self-hosted game stream host for Moonlight
+AddPackage --foreign sunshine # Self-hosted game stream host for Moonlight
 
 # Steam
 AddPackage gamescope # SteamOS session compositing window manager
