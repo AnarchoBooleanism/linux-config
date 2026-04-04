@@ -85,3 +85,4 @@ CopyFile /etc/profile.d/data_control_cosmic.sh
 CreateLink /etc/systemd/system/autovt@.service /usr/lib/systemd/system/getty@.service
 CopyFile /opt/ventoy/Ventoy2Disk.ini
 CopyFile /etc/cups/classes.conf.O 600 '' cups
+CopyFile /etc/sysctl.d/99-swappiness.conf
