@@ -90,6 +90,7 @@ AddPackage nvme-cli # NVM-Express user space tooling for Linux
 AddPackage 7zip # File archiver for extremely high compression
 AddPackage bash-completion # Programmable completion for the bash shell
 AddPackage base-devel # Basic tools to build Arch Linux packages
+AddPackage btrfs-progs # Btrfs filesystem utilities
 AddPackage dmidecode # Desktop Management Interface table related utilities
 AddPackage dialog # A tool to display dialog boxes from shell scripts
 AddPackage e2fsprogs # Ext2/3/4 filesystem utilities
@@ -102,6 +103,7 @@ AddPackage nano # Pico editor clone with enhancements
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
 AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
+AddPackage rust # Systems programming language focused on safety, speed and concurrency
 AddPackage stow # Manage installation of multiple softwares in the same directory tree
 AddPackage tmux # Terminal multiplexer
 AddPackage unrar # The RAR uncompression program
