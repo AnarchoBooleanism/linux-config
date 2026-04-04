@@ -3,6 +3,7 @@
 # Prerequisites
 AddPackage flatpak # Do this manually, aconfmgr doesn't like this
 AddPackage packagekit # A system designed to make installation and updates of packages easier
+AddPackage seatd # A minimal seat management daemon, and a universal seat management library
 AddPackage speech-dispatcher # High-level device independent layer for speech synthesis interface
 
 # IME

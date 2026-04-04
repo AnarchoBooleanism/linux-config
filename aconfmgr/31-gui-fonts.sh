@@ -8,10 +8,10 @@ AddPackage otf-ipaexfont # Japanese outline fonts following the tradition of Jap
 AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promotion Agency, Japan (IPA)
 AddPackage ttf-dejavu # Font family based on the Bitstream Vera Fonts with a wider range of characters
 AddPackage ttf-droid # General-purpose fonts released by Google as part of Android
-AddPackage ttf-hanazono # A free Japanese kanji font, which contains about 78,685 characters (and 2 SPACEs) defined in ISO/IEC 10646 standard / the Unicode standard.
 AddPackage ttf-indic-otf # Indic Opentype Fonts collection
 AddPackage ttf-liberation # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
 AddPackage ttf-roboto # Google's signature family of fonts
+AddPackage --foreign ttf-hanazono # A free Japanese kanji font, which contains about 78,685 characters (and 2 SPACEs) defined in ISO/IEC 10646 standard / the Unicode standard.
 AddPackage --foreign ttf-ms-win11-auto # Microsoft Windows 11 TrueType fonts
 AddPackage --foreign ttf-ms-win11-auto-japanese # Microsoft Windows 11 Japanese TrueType fonts
 AddPackage --foreign ttf-ms-win11-auto-korean # Microsoft Windows 11 Korean TrueType fonts
