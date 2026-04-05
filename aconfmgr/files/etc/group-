@@ -17,7 +17,7 @@ adm:x:999:daemon
 wheel:x:998:hihacks
 utmp:x:997:
 audio:x:996:brltty
-disk:x:995:
+disk:x:995:hihacks
 input:x:994:brltty
 kmem:x:993:
 kvm:x:992:libvirt-qemu,qemu
@@ -85,3 +85,4 @@ pcscd:x:933:
 partimag:x:110:
 empower:x:932:
 dhcpcd:x:931:
+rpcuser:x:34:

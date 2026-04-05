@@ -20,8 +20,8 @@ UUID=C8247DAC247D9E5E	/mnt/Extras	ntfs      	rw,nosuid,nodev,user_id=0,group_id=
 # /dev/sda5 LABEL=MEDIA
 UUID=D426-7029      	/mnt/MEDIA	exfat     	rw,relatime,fmask=0022,dmask=0022,iocharset=utf8,errors=remount-ro	0 2
 
-# /dev/nvme0n1p4
-UUID=6118-BFF9      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+# /dev/nvme0n1p4 LABEL=Arch\134x20boot
+UUID=AED1-F26C      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
 # /dev/nvme0n1p5
 UUID=3a8fd5f7-b7cd-4398-950e-3b4cfa17b709	none      	swap      	defaults  	0 0

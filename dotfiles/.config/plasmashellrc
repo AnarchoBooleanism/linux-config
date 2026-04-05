@@ -8,14 +8,14 @@ panelOpacity=2
 [PlasmaViews][Panel 3][Defaults]
 thickness=48
 
-[PlasmaViews][Panel 74]
+[PlasmaViews][Panel 97]
 alignment=132
 floating=0
 floatingApplets=0
 panelLengthMode=0
 panelOpacity=2
 
-[PlasmaViews][Panel 74][Defaults]
+[PlasmaViews][Panel 97][Defaults]
 thickness=48
 
 [Updates]

@@ -3,7 +3,6 @@
 CreateDir /boot/EFI/BOOT/keys
 CopyFile /boot/EFI/BOOT/refind.conf 755
 CopyFile /boot/EFI/BOOT/refind.conf-sample 755
-CopyFile /boot/EFI/BOOT/refind.conf.bak 755
 CreateDir /boot/EFI/BOOT/themes
 CreateDir /boot/EFI/tools
 CopyFile /boot/refind_linux.conf 755
@@ -23,8 +22,8 @@ CopyFile /etc/environment
 CopyFile /etc/fstab
 CopyFile /etc/group
 CopyFile /etc/group-
-CopyFile /etc/gshadow
-CopyFile /etc/gshadow- 600
+CopyFile /etc/gshadow 644
+CopyFile /etc/gshadow- 644
 CopyFile /etc/gufw/Home.profile 600
 CopyFile /etc/gufw/Office.profile 600
 CopyFile /etc/gufw/Public.profile 600

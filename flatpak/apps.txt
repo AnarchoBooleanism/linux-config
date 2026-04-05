@@ -10,7 +10,6 @@ com.system76.Popsicle
 dev.deedles.Trayscale
 dev.edfloreshz.CosmicTweaks
 io.github.cosmic_utils.cosmic-ext-applet-clipboard-manager
-io.github.cosmic_utils.sysinfo-applet
 io.github.cosmic_utils.weather-applet
 io.github.gaheldev.Millisecond
 io.github.pwr_solaar.solaar
