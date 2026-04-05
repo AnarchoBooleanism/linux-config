@@ -4,6 +4,8 @@ A set of files, that when run through aconfmgr (and in combination with the dotf
 
 For maintenance (keeping these files updated), run `aconfmgr save -c ./aconfmgr`. Any new changes will be in `99-unsorted.sh`, and should be moved to their relevant aconfmgr `.sh` configuration file.
 
+To install aconfmgr, use an AUR helper to install the package `aconfmgr-git`.
+
 To restore an installation, run `aconfmgr apply -c ./aconfmgr`.
 
 NOTE: Try to manually install flatpak as it keeps rejecting flatpak in here for some reason

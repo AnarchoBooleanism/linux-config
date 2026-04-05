@@ -13,6 +13,7 @@ AddPackage fcitx5-mozc # Fcitx5 Module of A Japanese Input Method for Chromium O
 
 # COSMIC
 AddPackageGroup cosmic
+AddPackage gnome-keyring # Stores passwords and encryption keys
 
 # KDE Plasma
 AddPackage plasma-desktop # KDE Plasma Desktop
