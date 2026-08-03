@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = edk2-shell
+[Action]
+Description = Copying UEFI shell to rEFInd tools directory...
+Exec = /usr/bin/cp /usr/share/edk2-shell/x64/Shell_Full.efi /boot/shellx64.efi
+When = PostTransaction

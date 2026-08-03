@@ -11,6 +11,10 @@ IgnorePath "/var/*" # All /var data, lot of big files here that can be regenerat
 IgnorePath "/usr/*" # Stuff that gets regenerated/added, when packages get installed
 
 # /boot
+IgnorePath "/boot/BOOTEX.LOG" # Ignore log files
+IgnorePath "/boot/EFI/tools/*" # Ignore extra EFI files, are handled by pacman hooks
+    IgnorePath "/boot/memtest86+/memtest.efi"
+    IgnorePath "/boot/*.efi"
 IgnorePath "/boot/*.img" # Ignore big image files in boot, also EFI-related files
     IgnorePath "/boot/vmlinuz-linux"
     IgnorePath "/boot/vmlinuz-linux-*"

@@ -2,7 +2,7 @@ Some(([
     "com.system76.CosmicAppletWorkspaces",
 ], [
     "com.system76.CosmicAppletStatusArea",
-    "io.github.cosmic_utils.cosmic-ext-applet-clipboard-manager",
+    "io.github.k33wee.clippy-land",
     "com.system76.CosmicAppletTiling",
     "com.system76.CosmicAppletAudio",
     "com.system76.CosmicAppletNetwork",

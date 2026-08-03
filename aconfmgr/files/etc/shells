@@ -9,3 +9,5 @@
 /usr/bin/rbash
 /usr/bin/systemd-home-fallback-shell
 /usr/bin/git-shell
+/bin/zsh
+/usr/bin/zsh

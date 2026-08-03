@@ -36,7 +36,7 @@ MoveResize=100
 Active=true
 
 [Plugins]
-blurEnabled=false
+blurEnabled=true
 contrastEnabled=false
 forceblurEnabled=true
 glassEnabled=true

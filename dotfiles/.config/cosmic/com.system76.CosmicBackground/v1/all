@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/mnt/MEDIA/user-folders/Pictures/DH-mqJMVYAENNwd.jpg"),
+    source: Path("/mnt/MEDIA/user-folders/Pictures/696ccf99bde4053b599eee36052640d2b339ee11.png"),
     filter_by_theme: true,
     rotation_frequency: 3600,
     filter_method: Lanczos,

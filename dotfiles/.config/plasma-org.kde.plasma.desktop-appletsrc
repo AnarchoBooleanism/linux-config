@@ -18,7 +18,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][16][Configuration]
-popupHeight=450
+popupHeight=451
 popupWidth=552
 
 [Containments][2][Applets][16][Configuration][Appearance]
@@ -68,7 +68,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:floorp.desktop,applications:vesktop.desktop,applications:com.system76.CosmicTerm.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:floorp.desktop,applications:vesktop.desktop,file:///home/hihacks/.local/share/flatpak/exports/share/applications/com.spotify.Client.desktop,applications:com.system76.CosmicTerm.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -190,7 +190,11 @@ AppletOrder=3;4;5;6;7;16;17
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=3dd71c7b-45af-4b43-967c-eff25ca4de86
+formfactor=0
+immutability=1
 lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
 [Containments][26][ConfigDialog]
@@ -201,7 +205,7 @@ DialogWidth=810
 positions={"1920x1080":[]}
 
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=/mnt/MEDIA/user-folders/Pictures/DH-mqJMVYAENNwd.jpg
+Image=file:///mnt/MEDIA/user-folders/Pictures/696ccf99bde4053b599eee36052640d2b339ee11.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]

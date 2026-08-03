@@ -13,3 +13,4 @@ AddPackage timeshift # A system restore utility for Linux
 AddPackage system-config-printer # A CUPS printer configuration tool and status applet
 
 AddPackage --foreign snapx-ui # Screenshot tool that handles images, text, and video (fork of ShareX). SnapX Avalonia-based UI (works best on X11)
+AddPackage --foreign timeshift-autosnap # Timeshift auto-snapshot script which runs before package upgrade using Pacman hook.

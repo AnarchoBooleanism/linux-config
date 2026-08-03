@@ -1,11 +1,11 @@
-# Subscription configuration file for CUPS v2.4.16
+# Subscription configuration file for CUPS v2.4.19
 # Written by cupsd
-NextSubscriptionId 28
-<Subscription 27>
-Events printer-state-changed printer-restarted printer-shutdown printer-stopped printer-added printer-deleted printer-modified
+NextSubscriptionId 29
+<Subscription 28>
+Events printer-state-changed printer-restarted printer-shutdown printer-stopped printer-added printer-deleted printer-modified job-state-changed job-created job-completed job-stopped job-progress
 Owner hihacks
 LeaseDuration 86400
 Interval 0
-ExpirationTime 1774777086
-NextEventId 1
+ExpirationTime 1783982426
+NextEventId 116
 </Subscription>

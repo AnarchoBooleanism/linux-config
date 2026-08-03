@@ -80,3 +80,6 @@ realtime:x:937:hihacks
 pcscd:x:936:
 empower:x:935:
 dnsmasq:x:934:
+rdma:x:933:
+systemd-imds:x:932:
+rpcuser:x:34:

@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = fwupd-efi
+[Action]
+Description = Copying fwupd to rEFInd tools directory...
+Exec = /usr/bin/cp /usr/lib/fwupd/efi/fwupdx64.efi /boot/EFI/tools/fwupx64.efi
+When = PostTransaction

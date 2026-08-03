@@ -1,3 +1,3 @@
-SCREENSHOT_DIR="$HOME/google-drive/Screenshots"
+SCREENSHOT_DIR="$HOME/Drive/Screenshots"
 CONFIG_DIR="$HOME/.linux-config"
-KEYCHAIN_KEYS="id_rsa homelab homelab-vps github-auth uci-gitlab uci-openlab"
+KEYCHAIN_KEYS="id_rsa homelab homelab-vps github-auth github-sign uci-gitlab uci-openlab"

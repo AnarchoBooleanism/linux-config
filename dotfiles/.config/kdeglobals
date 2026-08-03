@@ -1,48 +1,48 @@
+[Colors:Button]
+[Icons]
 [KDE]
 AutomaticLookAndFeel=false
+DefaultLightLookAndFeel=custom-anarchbool-light
+DefaultDarkLookAndFeel=custom-anarchbool-dark
 frameContrast=0.2
 LookAndFeelPackage=com.github.vinceliuice.Layan
-DefaultDarkLookAndFeel=custom-anarchbool-dark
-DefaultLightLookAndFeel=custom-anarchbool-light
-[Colors:Header][Inactive]
-[KFileDialog Settings]
-Sort reversed=false
-Show Full Path=false
-Sort directories first=true
-Show hidden files=true
-Speedbar Width=154
-Decoration position=2
-Show Speedbar=true
-Show Inline Previews=true
-Sort hidden files last=false
-Breadcrumb Navigation=true
-Show Preview=false
-Automatically select filename extension=true
-Allow Expansion=false
-View Style=Simple
-Sort by=Name
-[Colors:Selection]
-[ColorEffects:Disabled]
-ChangeSelectionColor=
-Enable=
-[Colors:Button]
-[ColorEffects:Inactive]
 [Colors:View]
-[Colors:Tooltip]
-[Colors:Complementary]
-[WM]
-activeFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-[Icons]
-[Colors:Header]
-[Colors:Window]
 [General]
-fixed=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-XftSubPixel=rgb
+menuFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+XftAntialias=true
+toolBarFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 LastUsedCustomAccentColor=232,203,45
 smallestReadableFont=Open Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-XftAntialias=true
+fixed=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 XftHintStyle=hintslight
-ColorSchemeHash=a689cee43c8f1e4b9069cdee8b3ccc01db904c31
+font=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+XftSubPixel=rgb
+ColorSchemeHash=f668c894924ab61f2a10142155763e7708c5fcce
+[Colors:Header][Inactive]
+[Colors:Header]
+[KFileDialog Settings]
+Show Preview=false
+Decoration position=2
+Show Inline Previews=true
+Sort hidden files last=false
+Sort reversed=false
+Show Full Path=false
+Show Speedbar=true
+Allow Expansion=false
+Breadcrumb Navigation=true
+View Style=Simple
+Sort by=Name
+Show hidden files=true
+Speedbar Width=154
+Automatically select filename extension=true
+Sort directories first=true
+[WM]
+activeFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+[ColorEffects:Inactive]
+[Colors:Tooltip]
+[Colors:Complementary]
+[Colors:Selection]
+[ColorEffects:Disabled]
+Enable=
+ChangeSelectionColor=
+[Colors:Window]
