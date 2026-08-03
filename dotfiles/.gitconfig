@@ -4,3 +4,7 @@
 	signingkey = /home/hihacks/.ssh/github-sign.pub
 [gpg]
 	format = ssh
+[commit]
+	gpgsign = true
+[core]
+	hooksPath = /home/hihacks/.config/git/hooks

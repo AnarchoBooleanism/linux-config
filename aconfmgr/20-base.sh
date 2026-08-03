@@ -3,10 +3,8 @@
 # The very base, needed to run anything
 AddPackage amd-ucode # Microcode update image for AMD CPUs
 AddPackage base # Minimal package set to define a basic Arch Linux installation
-AddPackage linux # The Linux kernel and modules
 AddPackage linux-firmware # Firmware files for Linux - Default set
 AddPackage linux-firmware-marvell # Firmware files for Linux - Firmware for Marvell devices
-AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
 AddPackage linux-lts # The LTS Linux kernel and modules
 AddPackage linux-lts-headers # Headers and scripts for building modules for the LTS Linux kernel
 AddPackage linux-zen # The Linux ZEN kernel and modules
@@ -21,9 +19,13 @@ AddPackage nvidia-open-dkms # NVIDIA open kernel modules - module sources
 AddPackage nvidia-settings # Tool for configuring the NVIDIA graphics driver
 
 # Bootloader
+AddPackage edk2-shell # EDK2 UEFI Shell
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
+AddPackage memtest86+-efi # Advanced memory diagnostic tool EFI version
 AddPackage refind # An EFI boot manager
 AddPackage sbctl # Secure Boot key manager
+
+AddPackage --foreign uefitool-bin # UEFI firmware image viewer and editor
 
 # Aconfmgr
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
@@ -50,6 +52,9 @@ AddPackage wireless_tools # Tools allowing to manipulate the Wireless Extensions
 AddPackage wpa_supplicant # A utility providing key negotiation for WPA wireless networks
 
 # Files
+AddPackage btrfs-assistant # An application for managing BTRFS subvolumes and Snapper snapshots
+AddPackage btrfs-progs # Btrfs filesystem utilities
+AddPackage btrfsmaintenance # Btrfs maintenance scripts
 AddPackage gvfs-smb # Virtual filesystem implementation for GIO - SMB/CIFS backend (Windows file sharing)
 AddPackage nfs-utils # Support programs for Network File Systems
 
@@ -90,7 +95,7 @@ AddPackage nvme-cli # NVM-Express user space tooling for Linux
 AddPackage 7zip # File archiver for extremely high compression
 AddPackage bash-completion # Programmable completion for the bash shell
 AddPackage base-devel # Basic tools to build Arch Linux packages
-AddPackage btrfs-progs # Btrfs filesystem utilities
+AddPackage btop # A monitor of system resources, bpytop ported to C++
 AddPackage dmidecode # Desktop Management Interface table related utilities
 AddPackage dialog # A tool to display dialog boxes from shell scripts
 AddPackage e2fsprogs # Ext2/3/4 filesystem utilities
@@ -109,6 +114,8 @@ AddPackage tmux # Terminal multiplexer
 AddPackage unrar # The RAR uncompression program
 AddPackage wget # Network utility to retrieve files from the web
 AddPackage xdg-user-dirs # Manage user directories like ~/Desktop and ~/Music
+AddPackage zip # Compressor/archiver for creating and modifying zipfiles
+AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
 
 # Niceties
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
@@ -118,6 +125,7 @@ AddPackage terminus-font # Monospace bitmap font (for X11 and console)
 
 # Docker
 AddPackage docker # Pack, ship and run any application as a lightweight container
+AddPackage docker-buildx # Docker CLI plugin for extended build capabilities with BuildKit
 AddPackage docker-compose # Fast, isolated development environments using Docker
 
 # Other useful tools

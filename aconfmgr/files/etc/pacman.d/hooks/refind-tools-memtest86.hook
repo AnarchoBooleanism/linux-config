@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = memtest86+-efi
+[Action]
+Description = Copying memtest86 to rEFInd tools directory...
+Exec = /usr/bin/cp /boot/memtest86+/memtest.efi /boot/EFI/tools/memtest86.efi
+When = PostTransaction

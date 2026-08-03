@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Check if the signing key fingerprint is already in the agent
+KEY_PATH="$HOME/.ssh/github-sign"
+
+if ! ssh-add -l | grep -q "$(ssh-keygen -lf "$KEY_PATH" | awk '{print $2}')"; then
+    ssh-add "$KEY_PATH" < /dev/tty
+fi

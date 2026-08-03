@@ -54,7 +54,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='\[$(tput bold)\]\[$(tput setaf 165)\]\u\[$(tput setaf 171)\]@\[$(tput setaf 213)\]\h\[$(tput sgr0)\] \[$(tput setaf 219)\]\w \[$(tput sgr0)\]$ '
 else
     PS1='\u@\h:\w\$ '
 fi
@@ -107,6 +107,8 @@ fi
 # Everything from here is custom!
 
 source $HOME/.bash_variables # Variables
+export EDITOR="nano"
+export ANSIBLE_SHELL_USE_HOST_NIX="true"
 
 # Start keychain (remember SSH passphrases)
 eval $(keychain --eval --quiet --noask $KEYCHAIN_KEYS) # Using --confallhosts makes keychain unable to find their locations
@@ -115,6 +117,8 @@ eval $(keychain --eval --quiet --noask $KEYCHAIN_KEYS) # Using --confallhosts ma
 alias update="paru -Syu --sudoloop && flatpak update"
 alias update-config="(cd $CONFIG_DIR && git pull && stow -t ~ dotfiles)"
 alias update-reflector="sudo systemctl restart reflector.service"
+alias ncdu-root="sudo ncdu / -x"
+alias ncdu-home="sudo ncdu /home -x"
 
 # Hyfetch! :3
 hyfetch

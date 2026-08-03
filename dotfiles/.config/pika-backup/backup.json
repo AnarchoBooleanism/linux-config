@@ -1,0 +1,73 @@
+[
+  {
+    "config_version": 2,
+    "id": "f76f6052-5f4c-48f0-83bb-5a43927d48e6",
+    "archive_prefix": "87172b-",
+    "repo_id": "3c530e0cd2ad21746a6ec9a4a7af37c778adc88dbf13598b1fd487284a000fc3",
+    "repo": {
+      "type": "Remote",
+      "uri": "ssh://valk-pc-backup/./aa83e1aa",
+      "settings": {
+        "command_line_args": null
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey",
+    "include": [
+      "",
+      "/mnt/Extras",
+      "/mnt/MEDIA",
+      "/mnt/SSD-Common"
+    ],
+    "exclude": [
+      {
+        "PathPrefix": ".floorp"
+      },
+      {
+        "PathPrefix": ".local"
+      },
+      {
+        "PathPrefix": ".var/app"
+      },
+      {
+        "PathPrefix": ".winboat"
+      },
+      {
+        "PathPrefix": "Drive"
+      },
+      {
+        "PathPrefix": "winboat"
+      },
+      {
+        "PathPrefix": "/mnt/Extras/Google Drive"
+      },
+      "Caches",
+      "Trash",
+      "FlatpakApps",
+      "VmsContainers"
+    ],
+    "schedule": {
+      "enabled": true,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": true,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "Remote Location",
+    "user_scripts": {}
+  }
+]

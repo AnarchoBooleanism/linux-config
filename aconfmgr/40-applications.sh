@@ -2,6 +2,7 @@
 
 AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage prismlauncher # Minecraft launcher with ability to manage multiple instances
+AddPackage --foreign insync # An unofficial Dropbox, Google Drive, and OneDrive client that runs on Linux, with support for various desktops
 AddPackage --foreign sunshine # Self-hosted game stream host for Moonlight
 
 # Steam

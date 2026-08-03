@@ -1,5 +1,7 @@
 # List of extra fonts to install
 
+AddPackage adobe-source-han-sans-jp-fonts # Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts
+AddPackage adobe-source-han-serif-jp-fonts # Adobe Source Han Serif Subset OTF - Japanese OpenType/CFF fonts
 AddPackage adobe-source-han-sans-otc-fonts # Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts
 AddPackage adobe-source-han-serif-otc-fonts # Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts
 AddPackage noto-fonts-cjk # Google Noto CJK fonts
@@ -9,8 +11,10 @@ AddPackage otf-ipafont # Japanese outline fonts by Information-technology Promot
 AddPackage ttf-dejavu # Font family based on the Bitstream Vera Fonts with a wider range of characters
 AddPackage ttf-droid # General-purpose fonts released by Google as part of Android
 AddPackage ttf-indic-otf # Indic Opentype Fonts collection
+AddPackage ttf-jigmo # Japanese Kanji font set which is the official successor to Hanazono Mincho
 AddPackage ttf-liberation # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
 AddPackage ttf-roboto # Google's signature family of fonts
+AddPackage ttf-vlgothic # Japanese TrueType fonts from Vine Linux
 AddPackage --foreign ttf-hanazono # A free Japanese kanji font, which contains about 78,685 characters (and 2 SPACEs) defined in ISO/IEC 10646 standard / the Unicode standard.
 AddPackage --foreign ttf-ms-win11-auto # Microsoft Windows 11 TrueType fonts
 AddPackage --foreign ttf-ms-win11-auto-japanese # Microsoft Windows 11 Japanese TrueType fonts

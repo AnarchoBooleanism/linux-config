@@ -9,7 +9,9 @@ AddPackage gnome-system-monitor # View current processes and monitor system stat
 AddPackage gnome-tweaks # Graphical interface for advanced GNOME 3 settings (Tweak Tool)
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage gufw # Uncomplicated way to manage your Linux firewall
+AddPackage pika-backup # Easy to use backup tool to keep your data safe
 AddPackage timeshift # A system restore utility for Linux
 AddPackage system-config-printer # A CUPS printer configuration tool and status applet
 
 AddPackage --foreign snapx-ui # Screenshot tool that handles images, text, and video (fork of ShareX). SnapX Avalonia-based UI (works best on X11)
+AddPackage --foreign timeshift-autosnap # Timeshift auto-snapshot script which runs before package upgrade using Pacman hook.

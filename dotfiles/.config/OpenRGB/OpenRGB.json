@@ -12,7 +12,8 @@
         "setprofile": false,
         "setserver": false,
         "setserverhost": false,
-        "setserverport": false
+        "setserverport": false,
+        "start_minimized": true
     },
     "CorsairDominatorSettings": {
         "model": "CMT"
@@ -1455,6 +1456,7 @@
             "MSI GeForce RTX 4070 Gaming X Slim White": true,
             "MSI GeForce RTX 4070 Gaming X Trio": true,
             "MSI GeForce RTX 4070 SUPER Gaming X Slim": true,
+            "MSI GeForce RTX 4070 SUPER Gaming X Slim MLG": true,
             "MSI GeForce RTX 4070 SUPER Gaming X Slim White": true,
             "MSI GeForce RTX 4070 Ti Gaming X Slim White": true,
             "MSI GeForce RTX 4070 Ti Gaming X Trio": true,
@@ -2275,7 +2277,8 @@
             "iGame GeForce RTX 4070 Ti SUPER Ultra W": true,
             "iGame GeForce RTX 4070 Vulcan OC-V": true,
             "iGame GeForce RTX 4080 Ultra W OC-V": true,
-            "iGame GeForce RTX 4090 Advanced OC-V": true
+            "iGame GeForce RTX 4090 Advanced OC-V": true,
+            "iGame GeForce RTX 5070 Ultra W OC-V": true
         }
     },
     "E131Devices": null,
@@ -2334,6 +2337,24 @@
             }
         ],
         "plugins_remove": []
+    },
+    "ProfileManager": {
+        "exit_profile": {
+            "enabled": false,
+            "name": ""
+        },
+        "open_profile": {
+            "enabled": false,
+            "name": ""
+        },
+        "resume_profile": {
+            "enabled": false,
+            "name": ""
+        },
+        "suspend_profile": {
+            "enabled": false,
+            "name": ""
+        }
     },
     "QMKOpenRGBDevices": null,
     "QMKVialRGBDevices": null,

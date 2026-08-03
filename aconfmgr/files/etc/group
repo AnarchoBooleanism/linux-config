@@ -86,3 +86,5 @@ partimag:x:110:
 empower:x:932:
 dhcpcd:x:931:
 rpcuser:x:34:
+rdma:x:930:
+systemd-imds:x:929:

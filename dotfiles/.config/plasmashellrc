@@ -4,6 +4,7 @@ floating=0
 floatingApplets=0
 panelLengthMode=0
 panelOpacity=2
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 3][Defaults]
 thickness=48
@@ -14,6 +15,7 @@ floating=0
 floatingApplets=0
 panelLengthMode=0
 panelOpacity=2
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 97][Defaults]
 thickness=48

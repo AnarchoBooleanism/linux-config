@@ -1,0 +1,11 @@
+[
+    Home,
+    Documents,
+    Downloads,
+    Music,
+    Pictures,
+    Path("/home/hihacks/Projects"),
+    Videos,
+    Path("/home/hihacks/Drive"),
+    Path("/home/hihacks/Drive/Screenshots"),
+]

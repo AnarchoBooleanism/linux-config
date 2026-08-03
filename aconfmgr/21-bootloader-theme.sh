@@ -515,4 +515,3 @@ CopyFile /boot/EFI/BOOT/themes/refind-theme-regular/icons/512-192/vol_internal.p
 CopyFile /boot/EFI/BOOT/themes/refind-theme-regular/icons/512-192/vol_net.png 755
 CopyFile /boot/EFI/BOOT/themes/refind-theme-regular/icons/512-192/vol_optical.png 755
 CopyFile /boot/EFI/BOOT/themes/refind-theme-regular/theme.conf 755
-CopyFile /boot/EFI/BOOT/refind.conf.bak 755

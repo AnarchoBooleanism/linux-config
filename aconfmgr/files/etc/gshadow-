@@ -17,7 +17,7 @@ adm:!*::daemon
 wheel:!*::hihacks
 utmp:!*::
 audio:!*::brltty
-disk:!*::hihacks
+disk:!*::
 input:!*::brltty
 kmem:!*::
 kvm:!*::libvirt-qemu,qemu
@@ -86,3 +86,4 @@ partimag:!*::
 empower:!*::
 dhcpcd:!*::
 rpcuser:!*::
+rdma:!*::

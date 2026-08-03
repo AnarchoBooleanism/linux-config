@@ -3,6 +3,7 @@
 IgnorePath "**/*.pacnew" # .pacnew files will come up anyway
 IgnorePath "/logs/*" # No logs needed
     IgnorePath "**/log.txt"
+    IgnorePath "/etc/openrgb/logs/*"
 IgnorePath "/mnt/*" # All important data to backup is in other dirs
 IgnorePath "/nix/*" # Nix data, will be regenerated anyway
 IgnorePath "/timeshift/*" # Timeshift data, should be dealt with elsewhere
@@ -11,6 +12,10 @@ IgnorePath "/var/*" # All /var data, lot of big files here that can be regenerat
 IgnorePath "/usr/*" # Stuff that gets regenerated/added, when packages get installed
 
 # /boot
+IgnorePath "/boot/BOOTEX.LOG" # Ignore log files
+IgnorePath "/boot/EFI/tools/*" # Ignore extra EFI files, are handled by pacman hooks
+    IgnorePath "/boot/memtest86+/memtest.efi"
+    IgnorePath "/boot/*.efi"
 IgnorePath "/boot/*.img" # Ignore big image files in boot, also EFI-related files
     IgnorePath "/boot/vmlinuz-linux"
     IgnorePath "/boot/vmlinuz-linux-*"

@@ -2,9 +2,15 @@
     {
         "data": [
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0,
@@ -18,14 +24,19 @@
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
                 "connectorName": "DP-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": true,
                 "edidHash": "d01c3c88f45eb6b583e41c3b63eea1ce",
                 "edidIdentifier": "AUS 9249 313961 31 2020 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 0,
                     "height": 1080,
                     "refreshRate": 143855,
                     "width": 1920
@@ -42,9 +53,15 @@
                 "wideColorGamut": false
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0,
@@ -58,14 +75,19 @@
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
                 "connectorName": "HDMI-A-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": true,
                 "edidHash": "7132c9423852f734f802dbe9d58d5875",
                 "edidIdentifier": "GSM 23227 16843009 1 2014 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 1,
                     "height": 1080,
                     "refreshRate": 60000,
                     "width": 1920
@@ -136,7 +158,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]
