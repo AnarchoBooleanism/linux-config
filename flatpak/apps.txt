@@ -10,9 +10,9 @@ com.rustdesk.RustDesk
 com.spotify.Client
 dev.deedles.Trayscale
 dev.edfloreshz.CosmicTweaks
-io.github.cosmic_utils.cosmic-ext-applet-clipboard-manager
 io.github.cosmic_utils.weather-applet
 io.github.gaheldev.Millisecond
+io.github.k33wee.clippy-land
 io.missioncenter.MissionCenter
 io.mrarm.mcpelauncher
 it.mijorus.gearlever
