@@ -120,7 +120,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][3][Applets][6][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:floorp.desktop,applications:vesktop.desktop,file:///var/lib/flatpak/exports/share/applications/com.spotify.Client.desktop,applications:com.system76.CosmicTerm.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:floorp.desktop,applications:vesktop.desktop,applications:spotify.desktop,applications:com.system76.CosmicTerm.desktop
 
 [Containments][3][Applets][7]
 immutability=1

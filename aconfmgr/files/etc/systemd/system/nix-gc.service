@@ -1,0 +1,7 @@
+[Unit]
+Description=Nix Garbage Collector
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nix-collect-garbage --delete-older-than 14d

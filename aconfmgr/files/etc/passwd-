@@ -53,3 +53,4 @@ pcscd:x:933:933:PC/SC Smart Card Daemon:/:/usr/bin/nologin
 partimag:x:110:110:Partimage user:/:/usr/bin/nologin
 dhcpcd:x:931:931:dhcpcd privilege separation:/:/usr/bin/nologin
 rpcuser:x:34:34:RPC Service User:/var/lib/nfs:/usr/bin/nologin
+systemd-imds:x:929:929:systemd Instance Metadata:/:/usr/bin/nologin

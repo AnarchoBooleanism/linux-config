@@ -2351,6 +2351,14 @@
             "enabled": false,
             "name": ""
         },
+        "service_shutdown_profile": {
+            "enabled": false,
+            "name": ""
+        },
+        "service_startup_profile": {
+            "enabled": false,
+            "name": ""
+        },
         "suspend_profile": {
             "enabled": false,
             "name": ""

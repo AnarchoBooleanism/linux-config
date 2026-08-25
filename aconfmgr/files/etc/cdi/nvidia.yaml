@@ -134,7 +134,7 @@ containerEdits:
             - --link
             - ../libnvidia-allocator.so.1::/usr/lib/gbm/nvidia-drm_gbm.so
             - --link
-            - libglxserver_nvidia.so.610.43.03::/usr/lib/nvidia/xorg/libglxserver_nvidia.so
+            - libglxserver_nvidia.so.610.57.04::/usr/lib/nvidia/xorg/libglxserver_nvidia.so
           env:
             - NVIDIA_CTK_DEBUG=false
         - hookName: createContainer
@@ -143,113 +143,115 @@ containerEdits:
             - nvidia-cdi-hook
             - create-symlinks
             - --link
-            - libEGL_nvidia.so.610.43.03::/usr/lib/libEGL_nvidia.so.0
+            - libEGL_nvidia.so.610.57.04::/usr/lib/libEGL_nvidia.so.0
             - --link
             - libEGL_nvidia.so.0::/usr/lib/libEGL_nvidia.so
             - --link
-            - libGLESv1_CM_nvidia.so.610.43.03::/usr/lib/libGLESv1_CM_nvidia.so.1
+            - libGLESv1_CM_nvidia.so.610.57.04::/usr/lib/libGLESv1_CM_nvidia.so.1
             - --link
             - libGLESv1_CM_nvidia.so.1::/usr/lib/libGLESv1_CM_nvidia.so
             - --link
-            - libGLESv2_nvidia.so.610.43.03::/usr/lib/libGLESv2_nvidia.so.2
+            - libGLESv2_nvidia.so.610.57.04::/usr/lib/libGLESv2_nvidia.so.2
             - --link
             - libGLESv2_nvidia.so.2::/usr/lib/libGLESv2_nvidia.so
             - --link
-            - libGLX_nvidia.so.610.43.03::/usr/lib/libGLX_indirect.so.0
+            - libGLX_nvidia.so.610.57.04::/usr/lib/libGLX_indirect.so.0
             - --link
-            - libGLX_nvidia.so.610.43.03::/usr/lib/libGLX_nvidia.so.0
+            - libGLX_nvidia.so.610.57.04::/usr/lib/libGLX_nvidia.so.0
             - --link
             - libGLX_nvidia.so.0::/usr/lib/libGLX_nvidia.so
             - --link
             - libcuda.so.1::/usr/lib/libcuda.so
             - --link
-            - libcuda.so.610.43.03::/usr/lib/libcuda.so.1
+            - libcuda.so.610.57.04::/usr/lib/libcuda.so.1
             - --link
-            - libcudadebugger.so.610.43.03::/usr/lib/libcudadebugger.so.1
+            - libcudadebugger.so.610.57.04::/usr/lib/libcudadebugger.so.1
             - --link
             - libcudadebugger.so.1::/usr/lib/libcudadebugger.so
             - --link
-            - libnvcuvid.so.610.43.03::/usr/lib/libnvcuvid.so.1
+            - libnvcuvid.so.610.57.04::/usr/lib/libnvcuvid.so.1
             - --link
             - libnvcuvid.so.1::/usr/lib/libnvcuvid.so
             - --link
-            - libnvidia-allocator.so.610.43.03::/usr/lib/libnvidia-allocator.so.1
+            - libnvidia-allocator.so.610.57.04::/usr/lib/libnvidia-allocator.so.1
             - --link
             - libnvidia-allocator.so.1::/usr/lib/libnvidia-allocator.so
             - --link
-            - libnvidia-cfg.so.610.43.03::/usr/lib/libnvidia-cfg.so.1
+            - libnvidia-cfg.so.610.57.04::/usr/lib/libnvidia-cfg.so.1
             - --link
             - libnvidia-cfg.so.1::/usr/lib/libnvidia-cfg.so
             - --link
-            - libnvidia-eglcore.so.610.43.03::/usr/lib/libnvidia-eglcore.so
+            - libnvidia-eglcore.so.610.57.04::/usr/lib/libnvidia-eglcore.so
             - --link
-            - libnvidia-encode.so.610.43.03::/usr/lib/libnvidia-encode.so.1
+            - libnvidia-encode.so.610.57.04::/usr/lib/libnvidia-encode.so.1
             - --link
             - libnvidia-encode.so.1::/usr/lib/libnvidia-encode.so
             - --link
-            - libnvidia-fbc.so.610.43.03::/usr/lib/libnvidia-fbc.so.1
+            - libnvidia-fbc.so.610.57.04::/usr/lib/libnvidia-fbc.so.1
             - --link
             - libnvidia-fbc.so.1::/usr/lib/libnvidia-fbc.so
             - --link
-            - libnvidia-glcore.so.610.43.03::/usr/lib/libnvidia-glcore.so
+            - libnvidia-glcore.so.610.57.04::/usr/lib/libnvidia-glcore.so
             - --link
-            - libnvidia-glsi.so.610.43.03::/usr/lib/libnvidia-glsi.so
+            - libnvidia-glsi.so.610.57.04::/usr/lib/libnvidia-glsi.so
             - --link
-            - libnvidia-glvkspirv.so.610.43.03::/usr/lib/libnvidia-glvkspirv.so
+            - libnvidia-glvkspirv.so.610.57.04::/usr/lib/libnvidia-glvkspirv.so
             - --link
-            - libnvidia-gpucomp.so.610.43.03::/usr/lib/libnvidia-gpucomp.so
+            - libnvidia-gpucomp.so.610.57.04::/usr/lib/libnvidia-gpucomp.so
             - --link
-            - libnvidia-ml.so.610.43.03::/usr/lib/libnvidia-ml.so.1
+            - libnvidia-ml.so.610.57.04::/usr/lib/libnvidia-ml.so.1
             - --link
             - libnvidia-ml.so.1::/usr/lib/libnvidia-ml.so
             - --link
-            - libnvidia-ngx.so.610.43.03::/usr/lib/libnvidia-ngx.so.1
+            - libnvidia-ngx.so.610.57.04::/usr/lib/libnvidia-ngx.so.1
             - --link
             - libnvidia-ngx.so.1::/usr/lib/libnvidia-ngx.so
             - --link
-            - libnvidia-nvvm.so.610.43.03::/usr/lib/libnvidia-nvvm.so.4
+            - libnvidia-nvvm.so.610.57.04::/usr/lib/libnvidia-nvvm.so.4
             - --link
             - libnvidia-nvvm.so.4::/usr/lib/libnvidia-nvvm.so
             - --link
-            - libnvidia-opencl.so.610.43.03::/usr/lib/libnvidia-opencl.so.1
+            - libnvidia-opencl.so.610.57.04::/usr/lib/libnvidia-opencl.so.1
             - --link
             - libnvidia-opencl.so.1::/usr/lib/libnvidia-opencl.so
             - --link
             - libnvidia-opticalflow.so.1::/usr/lib/libnvidia-opticalflow.so
             - --link
-            - libnvidia-opticalflow.so.610.43.03::/usr/lib/libnvidia-opticalflow.so.1
+            - libnvidia-opticalflow.so.610.57.04::/usr/lib/libnvidia-opticalflow.so.1
             - --link
-            - libnvidia-pkcs11-openssl3.so.610.43.03::/usr/lib/libnvidia-pkcs11-openssl3.so
+            - libnvidia-pkcs11-openssl3.so.610.57.04::/usr/lib/libnvidia-pkcs11-openssl3.so
             - --link
-            - libnvidia-pkcs11.so.610.43.03::/usr/lib/libnvidia-pkcs11.so
+            - libnvidia-pkcs11.so.610.57.04::/usr/lib/libnvidia-pkcs11.so
             - --link
-            - libnvidia-present.so.610.43.03::/usr/lib/libnvidia-present.so
+            - libnvidia-present.so.610.57.04::/usr/lib/libnvidia-present.so
             - --link
-            - libnvidia-ptxjitcompiler.so.610.43.03::/usr/lib/libnvidia-ptxjitcompiler.so.1
+            - libnvidia-ptxjitcompiler.so.610.57.04::/usr/lib/libnvidia-ptxjitcompiler.so.1
             - --link
             - libnvidia-ptxjitcompiler.so.1::/usr/lib/libnvidia-ptxjitcompiler.so
             - --link
-            - libnvidia-rtcore.so.610.43.03::/usr/lib/libnvidia-rtcore.so
+            - libnvidia-rtcore.so.610.57.04::/usr/lib/libnvidia-rtcore.so
             - --link
-            - libnvidia-sandboxutils.so.610.43.03::/usr/lib/libnvidia-sandboxutils.so.1
+            - libnvidia-sandboxutils.so.610.57.04::/usr/lib/libnvidia-sandboxutils.so.1
             - --link
             - libnvidia-sandboxutils.so.1::/usr/lib/libnvidia-sandboxutils.so
             - --link
-            - libnvidia-tileiras.so.610.43.03::/usr/lib/libnvidia-tileiras.so
+            - libnvidia-tileiras.so.610.57.04::/usr/lib/libnvidia-tileiras.so
             - --link
-            - libnvidia-tls.so.610.43.03::/usr/lib/libnvidia-tls.so
+            - libnvidia-tls.so.610.57.04::/usr/lib/libnvidia-tls.so
             - --link
-            - libnvidia-vksc-core.so.610.43.03::/usr/lib/libnvidia-vksc-core.so.1
+            - libnvidia-vksc-core.so.610.57.04::/usr/lib/libnvidia-vksc-core.so.1
             - --link
             - libnvidia-vksc-core.so.1::/usr/lib/libnvidia-vksc-core.so
             - --link
-            - libnvoptix.so.610.43.03::/usr/lib/libnvoptix.so.1
+            - libnvoptix.so.610.57.04::/usr/lib/libnvoptix.so.1
             - --link
             - libnvoptix.so.1::/usr/lib/libnvoptix.so
             - --link
-            - libvdpau_nvidia.so.610.43.03::/usr/lib/vdpau/libvdpau_nvidia.so.1
+            - libvdpau_nvidia.so.610.57.04::/usr/lib/vdpau/libvdpau_nvidia.so.1
             - --link
             - libvdpau_nvidia.so.1::/usr/lib/vdpau/libvdpau_nvidia.so
+            - --link
+            - libnvidia-nvvm70.so.4::/usr/lib/libnvidia-nvvm70.so
           env:
             - NVIDIA_CTK_DEBUG=false
         - hookName: createContainer
@@ -257,7 +259,7 @@ containerEdits:
           args:
             - nvidia-cdi-hook
             - enable-cuda-compat
-            - --host-driver-version=610.43.03
+            - --host-driver-version=610.57.04
           env:
             - NVIDIA_CTK_DEBUG=false
         - hookName: createContainer
@@ -276,6 +278,13 @@ containerEdits:
           args:
             - nvidia-cdi-hook
             - disable-device-node-modification
+          env:
+            - NVIDIA_CTK_DEBUG=false
+        - hookName: createContainer
+          path: /usr/bin/nvidia-cdi-hook
+          args:
+            - nvidia-cdi-hook
+            - update-application-profile
           env:
             - NVIDIA_CTK_DEBUG=false
     mounts:
@@ -319,72 +328,72 @@ containerEdits:
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libEGL_nvidia.so.610.43.03
-          containerPath: /usr/lib/libEGL_nvidia.so.610.43.03
+        - hostPath: /usr/lib/libEGL_nvidia.so.610.57.04
+          containerPath: /usr/lib/libEGL_nvidia.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libGLESv1_CM_nvidia.so.610.43.03
-          containerPath: /usr/lib/libGLESv1_CM_nvidia.so.610.43.03
+        - hostPath: /usr/lib/libGLESv1_CM_nvidia.so.610.57.04
+          containerPath: /usr/lib/libGLESv1_CM_nvidia.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libGLESv2_nvidia.so.610.43.03
-          containerPath: /usr/lib/libGLESv2_nvidia.so.610.43.03
+        - hostPath: /usr/lib/libGLESv2_nvidia.so.610.57.04
+          containerPath: /usr/lib/libGLESv2_nvidia.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libGLX_nvidia.so.610.43.03
-          containerPath: /usr/lib/libGLX_nvidia.so.610.43.03
+        - hostPath: /usr/lib/libGLX_nvidia.so.610.57.04
+          containerPath: /usr/lib/libGLX_nvidia.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libcuda.so.610.43.03
-          containerPath: /usr/lib/libcuda.so.610.43.03
+        - hostPath: /usr/lib/libcuda.so.610.57.04
+          containerPath: /usr/lib/libcuda.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libcudadebugger.so.610.43.03
-          containerPath: /usr/lib/libcudadebugger.so.610.43.03
+        - hostPath: /usr/lib/libcudadebugger.so.610.57.04
+          containerPath: /usr/lib/libcudadebugger.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvcuvid.so.610.43.03
-          containerPath: /usr/lib/libnvcuvid.so.610.43.03
+        - hostPath: /usr/lib/libnvcuvid.so.610.57.04
+          containerPath: /usr/lib/libnvcuvid.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-allocator.so.610.43.03
-          containerPath: /usr/lib/libnvidia-allocator.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-allocator.so.610.57.04
+          containerPath: /usr/lib/libnvidia-allocator.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-cfg.so.610.43.03
-          containerPath: /usr/lib/libnvidia-cfg.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-cfg.so.610.57.04
+          containerPath: /usr/lib/libnvidia-cfg.so.610.57.04
           options:
             - ro
             - nosuid
@@ -415,192 +424,208 @@ containerEdits:
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-eglcore.so.610.43.03
-          containerPath: /usr/lib/libnvidia-eglcore.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-eglcore.so.610.57.04
+          containerPath: /usr/lib/libnvidia-eglcore.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-encode.so.610.43.03
-          containerPath: /usr/lib/libnvidia-encode.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-encode.so.610.57.04
+          containerPath: /usr/lib/libnvidia-encode.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-fbc.so.610.43.03
-          containerPath: /usr/lib/libnvidia-fbc.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-fbc.so.610.57.04
+          containerPath: /usr/lib/libnvidia-fbc.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-glcore.so.610.43.03
-          containerPath: /usr/lib/libnvidia-glcore.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-glcore.so.610.57.04
+          containerPath: /usr/lib/libnvidia-glcore.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-glsi.so.610.43.03
-          containerPath: /usr/lib/libnvidia-glsi.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-glsi.so.610.57.04
+          containerPath: /usr/lib/libnvidia-glsi.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-glvkspirv.so.610.43.03
-          containerPath: /usr/lib/libnvidia-glvkspirv.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-glvkspirv.so.610.57.04
+          containerPath: /usr/lib/libnvidia-glvkspirv.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-gpucomp.so.610.43.03
-          containerPath: /usr/lib/libnvidia-gpucomp.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-gpucomp.so.610.57.04
+          containerPath: /usr/lib/libnvidia-gpucomp.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-gtk3.so.610.43.03
-          containerPath: /usr/lib/libnvidia-gtk3.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-gtk3.so.610.57.04
+          containerPath: /usr/lib/libnvidia-gtk3.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-ml.so.610.43.03
-          containerPath: /usr/lib/libnvidia-ml.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-ml.so.610.57.04
+          containerPath: /usr/lib/libnvidia-ml.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-ngx.so.610.43.03
-          containerPath: /usr/lib/libnvidia-ngx.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-ngx.so.610.57.04
+          containerPath: /usr/lib/libnvidia-ngx.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-nvvm.so.610.43.03
-          containerPath: /usr/lib/libnvidia-nvvm.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-nvvm.so.610.57.04
+          containerPath: /usr/lib/libnvidia-nvvm.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-opencl.so.610.43.03
-          containerPath: /usr/lib/libnvidia-opencl.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-nvvm70.so.4
+          containerPath: /usr/lib/libnvidia-nvvm70.so.4
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-opticalflow.so.610.43.03
-          containerPath: /usr/lib/libnvidia-opticalflow.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-opencl.so.610.57.04
+          containerPath: /usr/lib/libnvidia-opencl.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-pkcs11-openssl3.so.610.43.03
-          containerPath: /usr/lib/libnvidia-pkcs11-openssl3.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-opticalflow.so.610.57.04
+          containerPath: /usr/lib/libnvidia-opticalflow.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-pkcs11.so.610.43.03
-          containerPath: /usr/lib/libnvidia-pkcs11.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-pkcs11-openssl3.so.610.57.04
+          containerPath: /usr/lib/libnvidia-pkcs11-openssl3.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-present.so.610.43.03
-          containerPath: /usr/lib/libnvidia-present.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-pkcs11.so.610.57.04
+          containerPath: /usr/lib/libnvidia-pkcs11.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-ptxjitcompiler.so.610.43.03
-          containerPath: /usr/lib/libnvidia-ptxjitcompiler.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-present.so.610.57.04
+          containerPath: /usr/lib/libnvidia-present.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-rtcore.so.610.43.03
-          containerPath: /usr/lib/libnvidia-rtcore.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-ptxjitcompiler.so.610.57.04
+          containerPath: /usr/lib/libnvidia-ptxjitcompiler.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-sandboxutils.so.610.43.03
-          containerPath: /usr/lib/libnvidia-sandboxutils.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-rtcore.so.610.57.04
+          containerPath: /usr/lib/libnvidia-rtcore.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-tileiras.so.610.43.03
-          containerPath: /usr/lib/libnvidia-tileiras.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-sandboxutils.so.610.57.04
+          containerPath: /usr/lib/libnvidia-sandboxutils.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-tls.so.610.43.03
-          containerPath: /usr/lib/libnvidia-tls.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-tileiras.so.610.57.04
+          containerPath: /usr/lib/libnvidia-tileiras.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-vksc-core.so.610.43.03
-          containerPath: /usr/lib/libnvidia-vksc-core.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-tls.so.610.57.04
+          containerPath: /usr/lib/libnvidia-tls.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvidia-wayland-client.so.610.43.03
-          containerPath: /usr/lib/libnvidia-wayland-client.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-vksc-core.so.610.57.04
+          containerPath: /usr/lib/libnvidia-vksc-core.so.610.57.04
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/libnvoptix.so.610.43.03
-          containerPath: /usr/lib/libnvoptix.so.610.43.03
+        - hostPath: /usr/lib/libnvidia-wayland-client.so.610.57.04
+          containerPath: /usr/lib/libnvidia-wayland-client.so.610.57.04
+          options:
+            - ro
+            - nosuid
+            - nodev
+            - rbind
+            - rprivate
+        - hostPath: /usr/lib/libnvoptix.so.610.57.04
+          containerPath: /usr/lib/libnvoptix.so.610.57.04
+          options:
+            - ro
+            - nosuid
+            - nodev
+            - rbind
+            - rprivate
+        - hostPath: /etc/OpenCL/vendors/nvidia.icd
+          containerPath: /etc/OpenCL/vendors/nvidia.icd
           options:
             - ro
             - nosuid
@@ -623,8 +648,8 @@ containerEdits:
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/vdpau/libvdpau_nvidia.so.610.43.03
-          containerPath: /usr/lib/vdpau/libvdpau_nvidia.so.610.43.03
+        - hostPath: /usr/lib/vdpau/libvdpau_nvidia.so.610.57.04
+          containerPath: /usr/lib/vdpau/libvdpau_nvidia.so.610.57.04
           options:
             - ro
             - nosuid
@@ -639,24 +664,24 @@ containerEdits:
             - nodev
             - rbind
             - rprivate
-        - hostPath: /lib/firmware/nvidia/610.43.03/gsp_ga10x.bin
-          containerPath: /lib/firmware/nvidia/610.43.03/gsp_ga10x.bin
+        - hostPath: /lib/firmware/nvidia/610.57.04/gsp_ga10x.bin
+          containerPath: /lib/firmware/nvidia/610.57.04/gsp_ga10x.bin
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /lib/firmware/nvidia/610.43.03/gsp_tu10x.bin
-          containerPath: /lib/firmware/nvidia/610.43.03/gsp_tu10x.bin
+        - hostPath: /lib/firmware/nvidia/610.57.04/gsp_tu10x.bin
+          containerPath: /lib/firmware/nvidia/610.57.04/gsp_tu10x.bin
           options:
             - ro
             - nosuid
             - nodev
             - rbind
             - rprivate
-        - hostPath: /usr/lib/nvidia/xorg/libglxserver_nvidia.so.610.43.03
-          containerPath: /usr/lib/nvidia/xorg/libglxserver_nvidia.so.610.43.03
+        - hostPath: /usr/lib/nvidia/xorg/libglxserver_nvidia.so.610.57.04
+          containerPath: /usr/lib/nvidia/xorg/libglxserver_nvidia.so.610.57.04
           options:
             - ro
             - nosuid

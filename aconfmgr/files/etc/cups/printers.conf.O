@@ -9,7 +9,7 @@ Info Canon MF440DW
 Location 192.168.1.67
 DeviceURI ipp://192.168.1.67
 State Idle
-StateTime 1769314623
+StateTime 1787621435
 ConfigTime 1762056897
 Type 4
 Accepting Yes
@@ -26,7 +26,7 @@ Attribute marker-low-levels 7
 Attribute marker-high-levels 100
 Attribute marker-names Canon Cartridge 057 Black Toner
 Attribute marker-types toner
-Attribute marker-change-time 1769314624
+Attribute marker-change-time 1787621435
 </DefaultPrinter>
 <Printer HLL2395DW>
 PrinterId 1

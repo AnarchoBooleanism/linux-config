@@ -1,0 +1,9 @@
+[Unit]
+Description=Run Nix Garbage Collector Weekly
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

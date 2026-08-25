@@ -20,7 +20,7 @@ CopyFile /etc/cups/classes.conf.O 600 '' cups
 CopyFile /etc/cups/printers.conf 600
 CopyFile /etc/cups/printers.conf.O 600 '' cups
 CopyFile /etc/cups/subscriptions.conf 640
-CopyFile /etc/cups/subscriptions.conf.O 640
+CopyFile /etc/cups/subscriptions.conf.O 640 '' cups
 CopyFile /etc/default/btrfsmaintenance
 CopyFile /etc/environment
 CopyFile /etc/fstab
@@ -48,6 +48,7 @@ CopyFile /etc/mkinitcpio.d/linux.preset.pacsave
 CopyFile /etc/nix/nix.conf
 CopyFile /etc/openrgb/Configuration.json
 CopyFile /etc/openrgb/profiles/Default.json
+CopyFile /etc/openrgb/profiles/main.json
 CopyFile /etc/openrgb/sizes.ors
 CreateLink /etc/os-release ../usr/lib/os-release
 CopyFile /etc/pacman.conf
@@ -78,10 +79,14 @@ CopyFile /etc/systemd/system/btrfs-scrub.timer.d/schedule.conf
 CreateLink /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.timesync1.service /usr/lib/systemd/system/systemd-timesyncd.service
+CopyFile /etc/systemd/system/nix-gc.service
+CopyFile /etc/systemd/system/nix-gc.timer
 CopyFile /etc/systemd/system/wol.service
 CreateLink /etc/systemd/user/pipewire-session-manager.service /usr/lib/systemd/user/wireplumber.service
 CreateLink /etc/systemd/user/pipewire.service.wants/wireplumber.service /usr/lib/systemd/user/wireplumber.service
 CopyFile /etc/timeshift/timeshift.json
+CopyFile /etc/tpm2-tss/fapi-profiles/P_ECCP384SHA384.json
+CopyFile /etc/tpm2-tss/fapi-profiles/P_RSA3072SHA384.json
 CopyFile /etc/ufw/ufw.conf
 CopyFile /etc/ufw/user.rules
 CopyFile /etc/ufw/user6.rules
@@ -92,9 +97,17 @@ CreateDir /opt/containerd/bin 711
 CreateDir /opt/containerd/lib 711
 CopyFile /opt/ventoy/Ventoy2Disk.ini
 
+
+# 2026年  8月 24日 月曜日 20:22:38 PDT - New file properties
+
+
 SetFileProperty / mode 555
 SetFileProperty /etc/ssl/private mode 755
 SetFileProperty /opt/containerd mode 711
+
+
+# 2026年  8月 24日 月曜日 20:22:38 PDT - Extra file properties
+
 
 SetFileProperty /etc/fah-client/config.xml group ''
 SetFileProperty /etc/fah-client/config.xml owner ''

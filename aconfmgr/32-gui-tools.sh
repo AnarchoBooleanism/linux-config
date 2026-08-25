@@ -1,5 +1,6 @@
 # List of extra GUI tools for working with the system
 
+AddPackage ark # Archiving Tool
 AddPackage bluedevil # Integrate the Bluetooth technology within KDE workspace and applications
 AddPackage blueman # GTK+ Bluetooth Manager
 AddPackage flameshot # Powerful yet simple to use screenshot software

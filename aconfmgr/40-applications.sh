@@ -4,6 +4,11 @@ AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage prismlauncher # Minecraft launcher with ability to manage multiple instances
 AddPackage --foreign insync # An unofficial Dropbox, Google Drive, and OneDrive client that runs on Linux, with support for various desktops
 AddPackage --foreign sunshine # Self-hosted game stream host for Moonlight
+AddPackage --foreign vice-clipper # Medal.tv-style game clip recorder for Linux: instant replay, session recording, and one-click sharing
+
+# Spotify
+AddPackage ffmpeg4.4 # Complete solution to record, convert and stream audio and video
+AddPackage --foreign spotify # A proprietary music streaming service
 
 # Steam
 AddPackage gamescope # SteamOS session compositing window manager

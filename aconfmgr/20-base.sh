@@ -115,11 +115,17 @@ AddPackage unrar # The RAR uncompression program
 AddPackage wget # Network utility to retrieve files from the web
 AddPackage xdg-user-dirs # Manage user directories like ~/Desktop and ~/Music
 AddPackage zip # Compressor/archiver for creating and modifying zipfiles
+
+# zsh
 AddPackage zsh # A very advanced and programmable command interpreter (shell) for UNIX
+AddPackage zsh-autosuggestions # Fish-like autosuggestions for zsh
+AddPackage zsh-completions # Additional completion definitions for Zsh
+AddPackage zsh-syntax-highlighting # Fish shell like syntax highlighting for Zsh
 
 # Niceties
 AddPackage fastfetch # A feature-rich and performance oriented neofetch like system information tool
 AddPackage hyfetch # Neofetch with LGBTQ+ pride flags!
+AddPackage lesspipe # an input filter for the pager less
 AddPackage plymouth # Graphical boot splash screen
 AddPackage terminus-font # Monospace bitmap font (for X11 and console)
 
@@ -133,9 +139,12 @@ AddPackage android-file-transfer # Android MTP client with minimalistic UI
 AddPackage ansible # Official assortment of Ansible collections
 AddPackage distrobox # Use any linux distribution inside your terminal.
 AddPackage fwupd # Simple daemon to allow session software to update firmware
+AddPackage fzf # Command-line fuzzy finder
 AddPackage ncdu # Disk usage analyzer with an ncurses interface
 AddPackage nix # A purely functional package manager
 AddPackage nmap # Utility for network discovery and security auditing
+AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
+AddPackage pkgfile # A tool to search for files in official repository packages
 AddPackage pkgstats # Submit a list of installed packages to the Arch Linux project
 AddPackage python-dbus # Python bindings for D-Bus
 AddPackage python-lxml # Python binding for the libxml2 and libxslt libraries
