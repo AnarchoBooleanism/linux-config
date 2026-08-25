@@ -8,7 +8,7 @@
       "type": "Remote",
       "uri": "ssh://valk-pc-backup/./aa83e1aa",
       "settings": {
-        "command_line_args": null
+        "command_line_args": []
       }
     },
     "encrypted": false,
