@@ -7,12 +7,12 @@ com.moonlight_stream.Moonlight
 com.obsproject.Studio
 com.ranfdev.DistroShelf
 com.rustdesk.RustDesk
-com.spotify.Client
 dev.deedles.Trayscale
 dev.edfloreshz.CosmicTweaks
 io.github.cosmic_utils.weather-applet
 io.github.gaheldev.Millisecond
 io.github.k33wee.clippy-land
+io.github.nwxnw.cosmic-ext-connected
 io.missioncenter.MissionCenter
 io.mrarm.mcpelauncher
 it.mijorus.gearlever
@@ -24,7 +24,6 @@ org.gimp.GIMP
 org.gnome.Calculator
 org.gnome.Calendar
 org.gnome.Characters
-org.gnome.FileRoller
 org.gnome.Firmware
 org.gnome.Loupe
 org.gnome.Maps

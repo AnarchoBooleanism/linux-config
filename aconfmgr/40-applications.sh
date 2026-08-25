@@ -4,6 +4,10 @@ AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage prismlauncher # Minecraft launcher with ability to manage multiple instances
 AddPackage --foreign insync # An unofficial Dropbox, Google Drive, and OneDrive client that runs on Linux, with support for various desktops
 
+# Spotify
+AddPackage --foreign spotify # A proprietary music streaming service
+AddPackage ffmpeg4.4 # Complete solution to record, convert and stream audio and video
+
 # Steam
 AddPackage gamescope # SteamOS session compositing window manager
 AddPackage steam # Valve's digital software delivery system

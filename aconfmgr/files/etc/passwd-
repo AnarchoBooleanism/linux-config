@@ -48,3 +48,4 @@ nixbld10:x:938:948:Nix builder 10:/:/usr/bin/nologin
 pcscd:x:936:936:PC/SC Smart Card Daemon:/:/usr/bin/nologin
 dnsmasq:x:934:934:dnsmasq daemon:/:/usr/bin/nologin
 systemd-imds:x:932:932:systemd Instance Metadata:/:/usr/bin/nologin
+rpcuser:x:34:34:RPC Service User:/var/lib/nfs:/usr/bin/nologin

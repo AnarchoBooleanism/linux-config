@@ -69,15 +69,20 @@ CreateFile /etc/subuid- > /dev/null
 CopyFile /etc/sudoers
 CopyFile /etc/sysctl.d/20-quiet-printk.conf
 CopyFile /etc/sysctl.d/99-swappiness.conf
+CopyFile /etc/systemd/logind.conf
 CreateLink /etc/systemd/system/autovt@.service /usr/lib/systemd/system/getty@.service
 CopyFile /etc/systemd/system/btrfs-balance.timer.d/schedule.conf
 CopyFile /etc/systemd/system/btrfs-scrub.timer.d/schedule.conf
 CreateLink /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service /usr/lib/systemd/system/NetworkManager-dispatcher.service
 CreateLink /etc/systemd/system/dbus-org.freedesktop.timesync1.service /usr/lib/systemd/system/systemd-timesyncd.service
+CopyFile /etc/systemd/system/nix-gc.service
+CopyFile /etc/systemd/system/nix-gc.timer
 CreateLink /etc/systemd/user/pipewire-session-manager.service /usr/lib/systemd/user/wireplumber.service
 CreateLink /etc/systemd/user/pipewire.service.wants/wireplumber.service /usr/lib/systemd/user/wireplumber.service
 CopyFile /etc/timeshift/timeshift.json
+CopyFile /etc/tpm2-tss/fapi-profiles/P_ECCP384SHA384.json
+CopyFile /etc/tpm2-tss/fapi-profiles/P_RSA3072SHA384.json
 CopyFile /etc/ufw/ufw.conf
 CopyFile /etc/ufw/user.rules
 CopyFile /etc/ufw/user6.rules
@@ -86,6 +91,10 @@ CopyFile /etc/vconsole.conf
 CreateDir /lost+found 700
 CreateDir /opt/containerd/bin 711
 CreateDir /opt/containerd/lib 711
+
+
+# 2026年  8月 24日 月曜日 20:26:50 PDT - New file properties
+
 
 SetFileProperty / mode 555
 SetFileProperty /etc/ssl/private mode 755
