@@ -10,6 +10,7 @@ AddPackage gnome-system-monitor # View current processes and monitor system stat
 AddPackage gnome-tweaks # Graphical interface for advanced GNOME 3 settings (Tweak Tool)
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage gufw # Uncomplicated way to manage your Linux firewall
+AddPackage gwenview # A fast and easy to use image viewer
 AddPackage pika-backup # Easy to use backup tool to keep your data safe
 AddPackage timeshift # A system restore utility for Linux
 AddPackage system-config-printer # A CUPS printer configuration tool and status applet

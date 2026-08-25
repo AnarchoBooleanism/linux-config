@@ -25,7 +25,6 @@ org.gnome.Calculator
 org.gnome.Calendar
 org.gnome.Characters
 org.gnome.Firmware
-org.gnome.Loupe
 org.gnome.Maps
 org.gnome.Papers
 org.gnome.SimpleScan
