@@ -9,12 +9,6 @@ setopt beep nomatch
 unsetopt autocd extendedglob notify
 bindkey -e
 # End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/hihacks/.zshrc'
-
-autoload -Uz compinit
-compinit -d "$XDG_CACHE_HOME/.zcompdump"
-## End of lines added by compinstall
 
 ## Plugins
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -115,7 +109,6 @@ fi
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
-zstyle ':vcs_info:git:*' formats '%b'
 
 # Shell environment items
 # Python venv
@@ -154,10 +147,6 @@ export LESS="-R"
 
 # Colors for man pages
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
-
-# Completion styling
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -202,12 +191,32 @@ add-zsh-hook zshexit exitzero
 # Print exit codes
 setopt print_exit_value
 
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+## Auto-completion
 # Use fzf
 eval "$(fzf --zsh)"
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
-# make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+# Better SSH/Rsync/SCP Autocomplete
+zstyle ':completion:*:(scp|rsync):*' tag-order ' hosts:-ipaddr:ip\ address hosts:-host:host files'
+zstyle ':completion:*:(ssh|scp|rsync):*:hosts-host' ignored-patterns '*(.|:)*' loopback ip6-loopback localhost ip6-localhost broadcasthost
+zstyle ':completion:*:(ssh|scp|rsync):*:hosts-ipaddr' ignored-patterns '^(<->.<->.<->.<->|(|::)([[:xdigit:].]##:(#c,2))##(|%*))' '127.0.0.<->' '255.255.255.255' '::1' 'fe80::*'
+
+# Git
+zstyle ':vcs_info:git:*' formats '%b'
+
+# Case-insensitivity
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+# Completion styling
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+
+# Set up compinit
+zstyle :compinstall filename '/home/hihacks/.zshrc'
+autoload -Uz compinit
+compinit -d "$XDG_CACHE_HOME/.zcompdump"
 
 ## Variables for other programs
 # Assuming other variables are declared in .zshenv
