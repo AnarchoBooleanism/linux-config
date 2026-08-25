@@ -1,186 +1,48 @@
-[Colors:Tooltip]
-ForegroundNegative=253,161,160
-ForegroundPositive=146,207,156
-ForegroundNeutral=247,224,98
-ForegroundActive=161,192,235
-ForegroundInactive=223,223,223
-DecorationFocus=161,192,235
-ForegroundLink=161,192,235
-BackgroundNormal=46,46,46
-DecorationHover=161,192,235
-BackgroundAlternate=52,53,55
-ForegroundVisited=161,192,235
-ForegroundNormal=245,245,245
-
-[KDE]
-LookAndFeelPackage=com.github.vinceliuice.Layan
-contrast=4
-frameContrast=0.2
-DefaultLightLookAndFeel=custom-anarchbool-light
-AutomaticLookAndFeel=false
-widgetStyle=qt6ct-style
-DefaultDarkLookAndFeel=custom-anarchbool-dark
-
-[Colors:Complementary]
-ForegroundNormal=245,245,245
-ForegroundInactive=223,223,223
-ForegroundNegative=253,161,160
-ForegroundPositive=146,207,156
-BackgroundNormal=27,27,27
-ForegroundVisited=161,192,235
-ForegroundNeutral=247,224,98
-ForegroundLink=161,192,235
-DecorationHover=161,192,235
-ForegroundActive=161,192,235
-BackgroundAlternate=161,192,235
-DecorationFocus=161,192,235
-
-[Colors:Button]
-DecorationHover=161,192,235
-BackgroundNormal=60,60,60
-ForegroundNegative=253,161,160
-ForegroundVisited=161,192,235
-ForegroundPositive=146,207,156
-BackgroundAlternate=161,192,235
-ForegroundActive=161,192,235
-ForegroundLink=161,192,235
-ForegroundNeutral=247,224,98
-ForegroundInactive=223,223,223
-ForegroundNormal=245,245,245
-DecorationFocus=161,192,235
-
-[Icons]
-Theme=breeze-dark
-
-[ColorEffects:Inactive]
-IntensityAmount=0
-IntensityEffect=0
-ColorAmount=0.025
-Color=27,27,27
-ContrastEffect=2
-Enable=false
-ChangeSelectionColor=false
-ColorEffect=2
-ContrastAmount=0.1
-
+[Colors:Selection]
 [WM]
 activeFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-activeBackground=27,27,27
-inactiveBackground=27,27,27
-inactiveForeground=161,192,235
-activeForeground=161,192,235
-inactiveBlend=161,192,235
-activeBlend=161,192,235
-
-[Colors:Header]
-ForegroundVisited=161,192,235
-ForegroundNormal=245,245,245
-BackgroundAlternate=34,35,37
-ForegroundNegative=253,161,160
-DecorationFocus=161,192,235
-ForegroundNeutral=247,224,98
-BackgroundNormal=27,27,27
-ForegroundInactive=223,223,223
-ForegroundLink=161,192,235
-DecorationHover=161,192,235
-ForegroundPositive=146,207,156
-ForegroundActive=161,192,235
-
 [KFileDialog Settings]
+Speedbar Width=154
+Automatically select filename extension=true
+Show hidden files=true
 Sort hidden files last=false
-Sort directories first=true
-View Style=Simple
-Breadcrumb Navigation=true
-Allow Expansion=false
-Show Inline Previews=true
 Show Full Path=false
 Show Preview=false
-Speedbar Width=154
+Show Inline Previews=true
+Sort directories first=true
+Breadcrumb Navigation=true
 Decoration position=2
 Sort by=Name
-Automatically select filename extension=true
-Sort reversed=false
-Show hidden files=true
+Allow Expansion=false
 Show Speedbar=true
-
-[Colors:Window]
-ForegroundNegative=253,161,160
-ForegroundNeutral=247,224,98
-DecorationHover=161,192,235
-ForegroundLink=161,192,235
-BackgroundNormal=27,27,27
-ForegroundNormal=245,245,245
-DecorationFocus=161,192,235
-ForegroundVisited=161,192,235
-ForegroundActive=161,192,235
-ForegroundInactive=223,223,223
-ForegroundPositive=146,207,156
-BackgroundAlternate=34,35,37
-
-[Colors:Header][Inactive]
-ForegroundPositive=146,207,156
-ForegroundNeutral=247,224,98
-BackgroundNormal=27,27,27
-ForegroundLink=161,192,235
-ForegroundNegative=253,161,160
-ForegroundActive=161,192,235
-ForegroundNormal=245,245,245
-DecorationHover=161,192,235
-DecorationFocus=161,192,235
-BackgroundAlternate=34,35,37
-ForegroundInactive=223,223,223
-ForegroundVisited=161,192,235
-
+View Style=Simple
+Sort reversed=false
+[ColorEffects:Inactive]
 [ColorEffects:Disabled]
-Enable=
-IntensityAmount=0.1
-ContrastAmount=0.65
-ColorEffect=0
-Color=43,43,43
-ContrastEffect=1
-IntensityEffect=2
 ChangeSelectionColor=
-ColorAmount=0
-
-[Colors:View]
-ForegroundLink=161,192,235
-ForegroundNormal=245,245,245
-ForegroundInactive=223,223,223
-BackgroundAlternate=52,53,55
-DecorationHover=161,192,235
-BackgroundNormal=46,46,46
-ForegroundVisited=161,192,235
-DecorationFocus=161,192,235
-ForegroundPositive=146,207,156
-ForegroundNegative=253,161,160
-ForegroundNeutral=247,224,98
-ForegroundActive=161,192,235
-
-[Colors:Selection]
-ForegroundNormal=67,67,67
-DecorationHover=161,192,235
-DecorationFocus=161,192,235
-ForegroundNegative=253,161,160
-ForegroundVisited=161,192,235
-ForegroundLink=27,27,27
-BackgroundNormal=161,192,235
-ForegroundInactive=114,130,151
-BackgroundAlternate=94,110,131
-ForegroundPositive=146,207,156
-ForegroundNeutral=247,224,98
-ForegroundActive=67,67,67
-
+Enable=
+[Icons]
+[Colors:Complementary]
+[Colors:Button]
 [General]
-ColorScheme=CosmicDark
-LastUsedCustomAccentColor=232,203,45
-menuFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-ColorSchemeHash=15331d0855808d3c339bb43342917259d2505531
-XftAntialias=true
-Name=COSMIC Dark
-toolBarFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 font=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-fixed=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Open Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+ColorSchemeHash=15331d0855808d3c339bb43342917259d2505531
 XftHintStyle=hintslight
-shadeSortColumn=true
+LastUsedCustomAccentColor=232,203,45
+fixed=Noto Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+XftAntialias=true
 XftSubPixel=rgb
+toolBarFont=Open Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+[Colors:Header][Inactive]
+[Colors:Tooltip]
+[Colors:Header]
+[Colors:Window]
+[KDE]
+LookAndFeelPackage=com.github.vinceliuice.Layan
+DefaultDarkLookAndFeel=custom-anarchbool-dark
+AutomaticLookAndFeel=false
+DefaultLightLookAndFeel=custom-anarchbool-light
+frameContrast=0.2
+[Colors:View]
